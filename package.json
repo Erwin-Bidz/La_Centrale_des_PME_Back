@@ -1,0 +1,25 @@
+{
+  "name": "sme_city_backend",
+  "version": "1.0.0",
+  "description": "REST API for SME City, test one",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erwin-Bidz/La_Centrale_des_PME_Back.git"
+  },
+  "author": "MM_SME",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erwin-Bidz/La_Centrale_des_PME_Back/issues"
+  },
+  "homepage": "https://github.com/Erwin-Bidz/La_Centrale_des_PME_Back#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
