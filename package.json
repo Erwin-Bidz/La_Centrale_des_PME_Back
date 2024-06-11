@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Erwin-Bidz/La_Centrale_des_PME_Back#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "migrate": "^2.1.0",
+    "mongoose": "^8.4.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
