@@ -46,3 +46,4 @@ app.get('/api/smes/:id/:name', (req, res) => {
     const name = req.params.name
     res.send(`Hello, Small and Medium Sized Enterprise No${id} : ${name}`)
 })
+//Activites prend l'id de pillarActivity et Metiers prend l'id Activites.
