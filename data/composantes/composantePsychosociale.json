@@ -1,0 +1,69 @@
+[
+    {
+      "Catégorie": "JUSTICE",
+      "Service": "ORDRE DES AVOCATS",
+      "Structures": [
+        {
+          "Structure": "ORDRE DES AVOCATS DU CAMEROUN",
+          "Localisation": "YAOUNDE",
+          "Contact": "222308869 / 222308870",
+          "Responsable": "ATANGA ANJOUE KEVIN"
+        }
+      ]
+    },
+    {
+      "Catégorie": "JUSTICE",
+      "Service": "MINISTÈRE DE LA JUSTICE",
+      "Structures": [
+        {
+          "Structure": "MINISTÈRE DE LA JUSTICE DU CAMEROUN",
+          "Localisation": "YAOUNDE",
+          "Contact": "222234482 / 222234483",
+          "Responsable": "LAURENT ESSO"
+        }
+      ]
+    },
+    {
+      "Catégorie": "JUSTICE",
+      "Service": "COUR SUPRÊME",
+      "Structures": [
+        {
+          "Structure": "COUR SUPRÊME DU CAMEROUN",
+          "Localisation": "YAOUNDE",
+          "Contact": "222234482 / 222234483",
+          "Responsable": "NDELE PAUL"
+        }
+      ]
+    },
+    {
+      "Catégorie": "JUSTICE",
+      "Service": "COUR D'APPEL",
+      "Structures": [
+        {
+          "Structure": "COUR D'APPEL DU CENTRE",
+          "Localisation": "YAOUNDE",
+          "Contact": "222234482 / 222234483",
+          "Responsable": "ATANGA JEAN"
+        },
+        {
+          "Structure": "COUR D'APPEL DU LITTORAL",
+          "Localisation": "DOUALA",
+          "Contact": "222234482 / 222234483",
+          "Responsable": "FOUOKO PASCAL"
+        }
+      ]
+    },
+    {
+      "Catégorie": "JUSTICE",
+      "Service": "TRIBUNAL DE PREMIÈRE INSTANCE",
+      "Structures": [
+        {
+          "Structure": "TRIBUNAL DE PREMIÈRE INSTANCE DU MFOUNDI",
+          "Localisation": "YAOUNDE",
+          "Contact": "222234482 / 222234483",
+          "Responsable": "NGUENANG JEAN"
+        }
+      ]
+    }
+  ]
+  

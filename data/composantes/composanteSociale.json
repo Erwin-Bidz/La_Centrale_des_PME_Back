@@ -1,0 +1,279 @@
+[
+    {
+      "Catégorie": "ASPECT SOCIAL",
+      "Service": "SERVICES DE SANTÉ",
+      "Structures": [
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "BUEA REGIONAL HOSPITAL",
+          "Localisation": "BUEA",
+          "Contact": "33322295",
+          "Responsable": "DR. NGOMBA DIVINE MARTIN MOKAKE"
+        },
+        {
+          "Structure": "ONG LOCALE",
+          "Nom": "MINDS CENTRE BUEA SOUTHWEST CAMEROON",
+          "Localisation": "BUEA",
+          "Contact": "679831366",
+          "Responsable": "DR AGWE SAMUEL"
+        },
+        {
+          "Structure": "STRUCTURE PRIVÉE",
+          "Nom": "HOPITAL PROTESTANT NGAOUNDÉRÉ",
+          "Localisation": "NGAOUNDERE",
+          "Contact": "679605288",
+          "Responsable": "BETROGO JACOB"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "CSI ZOKOK",
+          "Localisation": "MAROUA",
+          "Contact": "696057670",
+          "Responsable": ""
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "CSI DOUGOI",
+          "Localisation": "MAROUA",
+          "Contact": "692445175",
+          "Responsable": ""
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "GROUPE TECHNIQUE REGIONAL DE LUTTE CONTRE LE VIH/ SIDA DU LITTORAL (GTR-LT)",
+          "Localisation": "DOUALA",
+          "Contact": "683896311 / 650908273",
+          "Responsable": "MEKAL ELONG CYRILLE"
+        },
+        {
+          "Structure": "STRUCTURE ASSOCIATIVE",
+          "Nom": "ORPHELINAT REFUGE MEINRAD HEBGA",
+          "Localisation": "DOUALA",
+          "Contact": "690042930 / 699575542",
+          "Responsable": "MME VEUVE SOPP NGOBINYEM ESTHER"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "UNIVERSITE DE DOUALA",
+          "Localisation": "DOUALA",
+          "Contact": "infos@univ-douala.com",
+          "Responsable": "PR MAGLOIRE ONDOA"
+        },
+        {
+          "Structure": "STRUCTURE PRIVÉE",
+          "Nom": "POLYCLINIQUE DE POITIERS",
+          "Localisation": "DOUALA",
+          "Contact": "690073467 / 671733761",
+          "Responsable": "TCHODJO K. MAGLOIRE"
+        },
+        {
+          "Structure": "STRUCTURE PRIVÉE",
+          "Nom": "GRACE CHARITABLE AND REHABILITATION ORGANIZATION ( GRACARO)",
+          "Localisation": "BAMENDA",
+          "Contact": "677179304/678930271",
+          "Responsable": ""
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "HOPITAL DE DISTRICT EFOULAN",
+          "Localisation": "YAOUNDE",
+          "Contact": "655978731 / 222310309",
+          "Responsable": "DR EFOULAN PAUL"
+        },
+        {
+          "Structure": "STRUCTURE PRIVÉE",
+          "Nom": "WDK CORPORATION",
+          "Localisation": "YAOUNDE",
+          "Contact": "222202524",
+          "Responsable": "NDENGUE CEDRIC"
+        }
+      ]
+    },
+    {
+      "Catégorie": "ASPECT SOCIAL",
+      "Service": "LOGEMENT",
+      "Structures": [
+        {
+          "Structure": "STRUCTURE PRIVÉE",
+          "Nom": "LA CASTROL",
+          "Localisation": "LIMBE",
+          "Contact": "694947401",
+          "Responsable": "ROGER TABOT EGBE"
+        },
+        {
+          "Structure": "STRUCTURE ASSOCIATIVE",
+          "Nom": "ORPHELINAT REFUGE MEINRAD HEBGA",
+          "Localisation": "DOUALA",
+          "Contact": "690042930 / 699575542",
+          "Responsable": "MME VEUVE SOPP NGOBINYEM ESTHER"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "DÉLÉGATION DÉPARTEMENTALE DE L'HABITAT MFOUNDI",
+          "Localisation": "YAOUNDE",
+          "Contact": "",
+          "Responsable": ""
+        }
+      ]
+    },
+    {
+      "Catégorie": "ASPECT SOCIAL",
+      "Service": "ADMINISTRATION",
+      "Structures": [
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "LIMBE CITY COUNCIL",
+          "Localisation": "LIMBE",
+          "Contact": "233332536",
+          "Responsable": "PAUL EFOME L.M NGALE"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "ASSEMBLÉE NATIONALE",
+          "Localisation": "YAOUNDE",
+          "Contact": "contact@assmat.com",
+          "Responsable": "YAWAN PATANG ISMAEL IGOR"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "MINISTÈRE DE LA JEUNESSE ET DE L’ÉDUCATION CIVIQUE",
+          "Localisation": "YAOUNDE",
+          "Contact": "",
+          "Responsable": "BILON BERTRAND"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "MINISTERE DU COMMERCE",
+          "Localisation": "YAOUNDE",
+          "Contact": "222203441 / 222233606",
+          "Responsable": "ANGOESSAMA PHILEMON PARFAIT"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "BAMENDA 1 COUNCIL",
+          "Localisation": "BAMENDA",
+          "Contact": "677177974 / 657103788",
+          "Responsable": "MBIGHA NJAH FELIX"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "BAMENDA 3 COUNCIL",
+          "Localisation": "BAMENDA",
+          "Contact": "67765180",
+          "Responsable": "FONGU CLETUS FANWE"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "AGENCE DES NORMES ET DE LA QUALITE",
+          "Localisation": "YAOUNDE",
+          "Contact": "",
+          "Responsable": "KIONGMA MBVOUMBO PIERRE"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "MAIRIE DE MFOU",
+          "Localisation": "MFOU",
+          "Contact": "691352345",
+          "Responsable": "M. NGOUMOU FRANCIS"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "SOUS-PREFECTURE DE SOA",
+          "Localisation": "SOA",
+          "Contact": "",
+          "Responsable": ""
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "COMMUNE DE SOA",
+          "Localisation": "YAOUNDE",
+          "Contact": "communesoa@yahoo.fr",
+          "Responsable": "ESSAMA EMBOLO"
+        }
+      ]
+    },
+    {
+      "Catégorie": "ASPECT SOCIAL",
+      "Service": "DISPOSITIFS DE PROTECTION SOCIALE",
+      "Structures": [
+        {
+          "Structure": "STRUCTURE ASSOCIATIVE",
+          "Nom": "ALPC (ASSISTANCE AUX LAISSES POUR COMPTE)",
+          "Localisation": "DOUALA",
+          "Contact": "694043818 / 696084024",
+          "Responsable": "BISSENG VAN"
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "EHSP DE DOUALA",
+          "Localisation": "DOUALA",
+          "Contact": "contact@enspd-udo.com",
+          "Responsable": ""
+        },
+        {
+          "Structure": "STRUCTURE PUBLIQUE",
+          "Nom": "CENTRE SOCIAL NGAOUNDÉRÉ",
+          "Localisation": "NGAOUNDERE",
+          "Contact": "",
+          "Responsable": "MASSIARE BAISSIRI HELENE"
+        },
+        {
+          "Structure": "STRUCTURE ASSOCIATIVE",
+          "Nom": "ADEPHAN",
+          "Localisation": "DOUALA",
+          "Contact": "association-adephan@gmail.com",
+          "Responsable": "NGANGUE NTHEPE AIME R."
+        },
+        {
+          "Structure": "ONG INTERNATIONALE",
+          "Nom": "AVISOC",
+          "Localisation": "DOUALA",
+          "Contact": "682845620",
+          "Responsable": "OTTOU WAOTTOU"
+        },
+        {
+          "Structure": "ONG INTERNATIONALE",
+          "Nom": "OPHAN",
+          "Localisation": "DOUALA",
+          "Contact": "699875421",
+          "Responsable": "NCHINDO HENRY"
+        },
+        {
+          "Structure": "STRUCTURE ASSOCIATIVE",
+          "Nom": "POUR UNE RENAISSANCE PLUS FORTE (CERCLE DES FEMMES LEADERS POUR LE DÉVELOPPEMENT DURABLE)",
+          "Localisation": "DOUALA",
+          "Contact": "",
+          "Responsable": "NGANMA LAURE"
+        },
+        {
+          "Structure": "ONG INTERNATIONALE",
+          "Nom": "INTERNATIONAL COMMUNITY FOR RELIEF OF STARVATION AND SUFFERING (ICROSS-CAMEROON)",
+          "Localisation": "NGAOUNDERE",
+          "Contact": "678895062",
+          "Responsable": ""
+        },
+        {
+          "Structure": "STRUCTURE ASSOCIATIVE",
+          "Nom": "PAAD",
+          "Localisation": "NGAOUNDERE",
+          "Contact": "654698892",
+          "Responsable": ""
+        },
+        {
+          "Structure": "STRUCTURE ASSOCIATIVE",
+          "Nom": "MAFUBEL (MALAWI FUND BUEA LEPROSY)",
+          "Localisation": "BUEA",
+          "Contact": "672635611",
+          "Responsable": "MAFUBEL"
+        },
+        {
+          "Structure": "ONG INTERNATIONALE",
+          "Nom": "CAMEROON DEVELOPMENT CORPORATION (CDC)",
+          "Localisation": "TIKO",
+          "Contact": "33135356",
+          "Responsable": "SOPPO LIPOT"
+        }
+      ]
+    }
+  ]
+  

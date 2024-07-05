@@ -1,0 +1,268 @@
+{
+    "CATEGORIES": [
+        {
+            "ASPECT": "ASPECT ÉCONOMIQUE",
+            "SERVICE": "PLACEMENT PROFESSIONNEL",
+            "STRUCTURES": [
+                {
+                    "STRUCTURE": "STRUCTURE PUBLIQUE-BAMENDA-« GOVERNMENT EMERGENCY HUMANITARIAN ASSISTANCE »",
+                    "LOCALISATION": "BAMENDA",
+                    "CONTACT": "676320116",
+                    "RESPONSABLE": "NCHOFON MINGOH"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-MBALMAYO-« ALTERNATIVES DURABLE PAR LE DÉVELOPPEMENT CADD »",
+                    "LOCALISATION": "MBALMAYO",
+                    "CONTACT": "677-53-10-11 / 655-27-90-35",
+                    "RESPONSABLE": "NDZANA ATOUGA GOLF"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE ASSOCIATIVE-YAOUNDÉ-ASSOCIATION SPORTIVE EDING DREAMS",
+                    "LOCALISATION": "YAOUNDE",
+                    "CONTACT": "691686363",
+                    "RESPONSABLE": "BORIS HORST STEPHANE"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PUBLIQUE-YAOUNDÉ-« UNIVERSITÉ DE DOUALA »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "infos@univ-douala.com",
+                    "RESPONSABLE": "MAGLOIRE ONDOA"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE DOUALA-« CFP PHENIX D’OR »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "653-68-77-16 / 653-68-76-20",
+                    "RESPONSABLE": "MELAINE EPOUPA MISSI"
+                },
+                {
+                    "STRUCTURE": "SECTEUR PRIVÉ-DOUALA-« DAK GARDIENNAGE »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "699927190",
+                    "RESPONSABLE": "BEKOBE AIME SERGE"
+                },
+                {
+                    "STRUCTURE": "ONG LOCALE – BAMENDA-« SOCIETY FOR INITIATIVES IN RURAL DEVELOPMENT AND ENVIRONMENTAL PROTECTION (SIRDEP)",
+                    "LOCALISATION": "BAMENDA",
+                    "CONTACT": "677501451",
+                    "RESPONSABLE": "NDIFOR PATIENCE"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-YAOUNDÉ-« POWERBACHE EDUCATION »",
+                    "LOCALISATION": "YAOUNDE",
+                    "CONTACT": "653518317 / 698541668",
+                    "RESPONSABLE": "M. BACHE SOLOMON NDZE"
+                }
+            ]
+        },
+        {
+            "ASPECT": "ASPECT ÉCONOMIQUE",
+            "SERVICE": "FORMATION PROFESSIONNELLE TECHNIQUE",
+            "STRUCTURES": [
+                {
+                    "STRUCTURE": "STRUCTURE ASSOCIATIVE-DOUALA-«COOP-CA INSOLAGRIL »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "678-30-64-30 / 656-78-03-04",
+                    "RESPONSABLE": "EKE SERGE CALVIN"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-YAOUNDÉ-« CANAL + VEO »",
+                    "LOCALISATION": "YAOUNDE",
+                    "CONTACT": "242-014-456",
+                    "RESPONSABLE": "EPAH EKONDE A."
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-NGAOUNDÉRÉ-« COPYTECH »",
+                    "LOCALISATION": "NGAOUNDERE",
+                    "CONTACT": "690 508 183/ 677 443 042",
+                    "RESPONSABLE": "ALI IBRAHIM"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE ASSOCIATIVE-DOUALA-« JEUNESSE ACTION ET CONCIENTE DE DOUALA »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "683-31-97-97",
+                    "RESPONSABLE": "KWAYEB DONALB"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-DOUALA-« ISHOPE »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "690-97-22-08 / 680-63-81-52",
+                    "RESPONSABLE": "DOUMBE VINCENT"
+                },
+                {
+                    "STRUCTURE": "OSC-DOUALA-« CARE OF HANDICAP »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "682-75-24-63 / 699-57-77-74",
+                    "RESPONSABLE": "YOMGNI TAGNE ZEPHIRIN"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PUBLIQUE-DOUALA-« UNIVERSITE DE DOUALA »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "infos@univ-douala.com",
+                    "RESPONSABLE": "PR MAGLOIRE ONDOA"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE ASSOCIATIVE-DOUALA-« WOMEN UPLIFTMENT PROGRAM-WUP »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "694560262/ 699439124",
+                    "RESPONSABLE": ""
+                },
+                {
+                    "STRUCTURE": "STRUCTURE ASSOCIATIVE-DOUALA-« JEUNESSE ACTION ET CONSCIENTE DE DOUALA »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "683-31-97-97",
+                    "RESPONSABLE": "KWAYEB DONALB"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-DOUALA-« GLOBAL MOTOR SARL »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "695-44-64-60 / 656-26-10-26",
+                    "RESPONSABLE": "DAVID NOGIDONG"
+                }
+            ]
+        },
+        {
+            "ASPECT": "ASPECT ÉCONOMIQUE",
+            "SERVICE": "SOUTIEN AU DÉVELOPPEMENT DES ENTREPRISES",
+            "STRUCTURES": [
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-YAOUNDÉ-« M FOR M OVERALLS »",
+                    "LOCALISATION": "YAOUNDE",
+                    "CONTACT": "6935140985",
+                    "RESPONSABLE": "MATHIAS MONDO"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE -BUEA-« BLUEMOON LTD »",
+                    "LOCALISATION": "BUEA",
+                    "CONTACT": "654571447",
+                    "RESPONSABLE": "LAYE MBUNKUR"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-« L.A BUSINESS TV »",
+                    "LOCALISATION": "LIMBE",
+                    "CONTACT": "694663997/ 671962540",
+                    "RESPONSABLE": "RUDOLPH LYONGA"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE ASSOCIATIVE-DOUALA-« WOMEN UPLIFTMENT PROGRAM-WUP »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "694560262/ 699439124",
+                    "RESPONSABLE": ""
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PUBLIQUE-YAOUNDÉ-AGENCE DE PROMOTION DES PETITES ET MOYENNES ENTREPRISES (APME)",
+                    "LOCALISATION": "YAOUNDE",
+                    "CONTACT": "242-048-255",
+                    "RESPONSABLE": "JEAN MARIE LOUIS BADGA"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-NGAOUNDÉRÉ-« ETS CAFE FAMILLE »",
+                    "LOCALISATION": "NGAOUNDERE",
+                    "CONTACT": "694 474 441",
+                    "RESPONSABLE": "ABBO ABOUBAKAR"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-BAMENDA-« VOCATIONAL TRAINING INSTITUTE OF HEALTH AND BIOMEDICAL SCIENCES »",
+                    "LOCALISATION": "BAMENDA",
+                    "CONTACT": "675958382",
+                    "RESPONSABLE": ""
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PUBLIQUE-DOUALA-« CENTRE D'INCUBATION DE L'ENSPD »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "https://cincub-enspd.com",
+                    "RESPONSABLE": ""
+                },
+                {
+                    "STRUCTURE": "ONG LOCALE-BAMENDA-« COMMUNITY ACTION FOR ADVANCING SUSTAINABLE DEVELOPMENT »",
+                    "LOCALISATION": "BAMENDA",
+                    "CONTACT": "676421631/670363968",
+                    "RESPONSABLE": "NDZE NOEL LIFOGHA"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE ASSOCIATIVE-DOUALA-« AASMA »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "676168299",
+                    "RESPONSABLE": "TENWE ROMUALD"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PUBLIQUE-DOUALA-« UNIVERSITÉ DE DOUALA »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "infos@univ-douala.com",
+                    "RESPONSABLE": "PR MAGLOIRE ONDOA"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PUBLIQUE-BAMENDA-« SUPPORT CENTER FOR SMALL AND MEDIUM SIZED ENTERPRISES NORTHWEST »",
+                    "LOCALISATION": "BAMENDA",
+                    "CONTACT": "capmenw@yahoo.com",
+                    "RESPONSABLE": ""
+                },
+                {
+                    "STRUCTURE": "STRUCTURE ASSOCIATIVE-ESSE-« ASSOCIATION SA SANGULA »",
+                    "LOCALISATION": "ESSE",
+                    "CONTACT": "693848916",
+                    "RESPONSABLE": "AYI THADDEE"
+                },
+                {
+                    "STRUCTURE": "SECTEUR PRIVÉ-YAOUNDÉ-« PROGRAMME D’APPUIS AUX INITIATIVES DE DEVELOPPEMENT »",
+                    "LOCALISATION": "YAOUNDE",
+                    "CONTACT": "691942 475",
+                    "RESPONSABLE": "M EYENGA LEOPOLD FABIEN"
+                },
+                {
+                    "STRUCTURE": "ONG LOCALE-YAOUNDE-« INADES FORMATION CAMEROUN »",
+                    "LOCALISATION": "CENTRE",
+                    "CONTACT": "222211551",
+                    "RESPONSABLE": "LEKEULEM ALAIN"
+                }
+            ]
+        },
+        {
+            "ASPECT": "ASPECT ÉCONOMIQUE",
+            "SERVICE": "SERVICES FINANCIERS",
+            "STRUCTURES": [
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-YAOUNDÉ-« BANGER BANK Cameroun »",
+                    "LOCALISATION": "YAOUNDE",
+                    "CONTACT": "693-37-77-00",
+                    "RESPONSABLE": "NTSAMA GUY BERTRAND"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-BAMENDA-« HOPE FOR ALL COOPERATIVE CREDIT UNION »",
+                    "LOCALISATION": "BAMENDA",
+                    "CONTACT": "672001275",
+                    "RESPONSABLE": "TEUWAH REBECCA NEH"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-DOUALA-« COMMUNITY CREDIT COMPANY CCC PLC »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "233361757",
+                    "RESPONSABLE": "NGOH KLALTERS TEBID"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-DOUALA-« CECIC S.A »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "cecicfinance@cecic-sa.cm",
+                    "RESPONSABLE": "JOSEPH TCHOUBET"
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-DOUALA-« AREA »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "233438232",
+                    "RESPONSABLE": ""
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE-DOUALA-« UBA CAMEROON »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "cfccameroon@ubagroup.com",
+                    "RESPONSABLE": ""
+                },
+                {
+                    "STRUCTURE": "STRUCTURE PRIVÉE -DOUALA-« AXA CAMEROUN »",
+                    "LOCALISATION": "DOUALA",
+                    "CONTACT": "axa.cameroun@axa.com",
+                    "RESPONSABLE": "THIERRY KEPEDEN"
+                }
+            ]
+        }
+    ]
+}

@@ -17,9 +17,22 @@
   },
   "homepage": "https://github.com/Erwin-Bidz/La_Centrale_des_PME_Back#readme",
   "dependencies": {
+    "async": "^3.2.5",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.1.0",
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
     "migrate": "^2.1.0",
-    "mongoose": "^8.4.1"
+    "mongoose": "^8.4.4",
+    "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
