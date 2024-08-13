@@ -13,32 +13,80 @@ module.exports = {
     register: async function (req, res) {
       try {
         
-    
+        /***Params */
+        //Champs communs
+        const commonFields = {
+          Nom: req.body.Nom,
+          Password: req.body.Password,
+          Logo: req.body.Logo,
+          Email: req.body.Email,
+          Tel: req.body.Tel,
+          SiteWeb: req.body.SiteWeb,
+          Effectif: req.body.Effectif,
+          NomResponsable: req.body.NomResponsable,
+          ContactResponsable: req.body.ContactResponsable,
+          StatutJuridique: req.body.StatutJuridique,
+          BoitePostale: req.body.BoitePostale,
+          Langues: req.body.Langues,
+          Activites: req.body.Activites,
+          Tarifications: req.body.Tarifications,
+          Type: req.body.Type,
+          ChiffreAffaire: req.body.ChiffreAffaire,
+          Description: req.body.Description,
+          DateCreation: req.body.DateCreation,
+          Pays: req.body.Pays,
+          Region: req.body.Region,
+          LocalisationGps: req.body.LocalisationGps,
+          NoteMoyenne: req.body.NoteMoyenne,
+          NombreDeVotes: req.body.NombreDeVotes
+        };
+
+        //Champs spécifiques
+        let specificFields = {};
+        switch (req.body.Type) {
+            case 'AgentGouv':
+                specificFields = {
+                    ZoneGouv: req.body.ZoneGouv
+                };
+                break;
+            case 'Banque':
+                specificFields = {
+                    Projets: req.body.Projets
+                };
+                break;
+            case 'Certifications':
+                specificFields = {
+                  DomaineCertification : req.body.DomaineCertification,
+                  TypeCertification : req.body.TypeCertification
+                };
+               break;
+            case 'Fournisseur':
+                specificFields = {
+                    Certifications: req.body.Certifications,
+                    ZoneCouverture: req.body.ZoneCouverture
+                };
+                break;
+            case 'Investisseur':
+                specificFields = {
+                    MontantInvestissement: req.body.MontantInvestissement,
+                    TypeInvestissement: req.body.TypeInvestissement,
+                    DomaineInvestissement: req.body.DomaineInvestissement
+                };
+                break;
+            case 'ONG':
+                specificFields = {
+                    OngVille: req.body.OngVille,
+                    Budget: req.body.Budget
+                };
+                break;
+            // Ajouter d'autres types ici si nécessaire
+            default:
+                throw new Error(`Unknown PME type: ${req.body.Type}`);
+        }
+
         // Vérifiez le contenu du corps de la requête
         console.log('req.body:', req.body);
     
-        // Params
-        // Params
-        var Nom = req.body.Nom;
-        var Password = req.body.Password;
-        var Logo = req.body.Logo;
-        var Statut_juridique = req.body.Statut_juridique;
-        var Effectif = req.body.Effectif;
-        var Email = req.body.Email;
-        var Type = req.body.Type;
-        var SiteWeb = req.body.SiteWeb;
-        var Tel = req.body.Tel;
-        var ChiffreAffaire = req.body.ChiffreAffaire;
-        var Description = req.body.Description;
-        var Localisation = req.body.Localisation;
-        var DateCreation = req.body.DateCreation;
-        var Departement = req.body.Departement;
-        var Region = req.body.Region;
-        var Pays = req.body.Pays;
-        var Note = req.body.Note;
-        
-    
-        console.log('req.body2:', req.body);
         // Vérifiez que les champs requis sont présents
         if (!Nom || !Password || !Email) {
           return res.status(400).send({ message: 'Nom, Email, et Password sont requis.' });
@@ -57,21 +105,41 @@ module.exports = {
         var newPme = new PME({
           Nom: Nom,
           Password: hashedPassword,
-          Logo: Logo,
-          Statut_juridique: Statut_juridique,
-          Effectif: Effectif,
           Email: Email,
-          Type: Type,
-          SiteWeb: SiteWeb,
           Tel: Tel,
+          SiteWeb: SiteWeb,
+          Logo: Logo,
+          Effectif: Effectif,
+          NomResponsable: NomResponsable,
+          ContactResponsable: ContactResponsable,
+          Statut_juridique: Statut_juridique,
+          BoitePostale: BoitePostale,
+          Langues: Langues,
+          Activites: Activites,
+          Tarifications: Tarifications,
+          Type: Type,
           ChiffreAffaire: ChiffreAffaire,
           Description: Description,
-          Localisation: Localisation,
           DateCreation: DateCreation,
-          Departement: Departement,
-          Region: Region,
           Pays: Pays,
-          Note: Note
+          Region: Region,
+          Departement: Departement,
+          LieuDit: LieuDit,
+          LocalisationGps: LocalisationGps,
+          NoteMoyenne: NoteMoyenne,
+          NombreDeVotes: NombreDeVotes,
+          //Spécifiques
+          Projets: Projets,
+          Certification: Certification,
+          DomaineCertification: DomaineCertification,
+          TypeCertification: TypeCertification,
+          DomaineExpertise: DomaineExpertise,
+          ZoneCouverture: ZoneCouverture,
+          MontantInvestissement: MontantInvestissement,
+          TypeInvestissement: TypeInvestissement,
+          DomaineInvestissement: DomaineInvestissement,
+          OngVille: OngVille,
+          Budget: Budget
         });
     
         // Sauvegardez la nouvelle PME dans la base de données
@@ -89,12 +157,221 @@ module.exports = {
         
     },
 
+    /*
+    register: function(req, res) {
+
+        
+        //Champs communs
+        const commonFields = {
+          Nom: req.body.Nom,
+          Password: req.body.Password,
+          Logo: req.body.Logo,
+          Email: req.body.Email,
+          Tel: req.body.Tel,
+          SiteWeb: req.body.SiteWeb,
+          Effectif: req.body.Effectif,
+          NomResponsable: req.body.NomResponsable,
+          ContactResponsable: req.body.ContactResponsable,
+          StatutJuridique: req.body.StatutJuridique,
+          BoitePostale: req.body.BoitePostale,
+          Langues: req.body.Langues,
+          Activites: req.body.Activites,
+          Tarifications: req.body.Tarifications,
+          Type: req.body.Type,
+          ChiffreAffaire: req.body.ChiffreAffaire,
+          Description: req.body.Description,
+          DateCreation: req.body.DateCreation,
+          Pays: req.body.Pays,
+          Region: req.body.Region,
+          LocalisationGps: req.body.LocalisationGps,
+          NoteMoyenne: req.body.NoteMoyenne,
+          NombreDeVotes: req.body.NombreDeVotes
+        };
+
+        //Champs spécifiques
+        let specificFields = {};
+        switch (req.body.Type) {
+            case 'AgentGouv':
+                specificFields = {
+                    ZoneGouv: req.body.ZoneGouv
+                };
+                break;
+            case 'Banque':
+                specificFields = {
+                    Projets: req.body.Projets
+                };
+                break;
+            case 'Certifications':
+                specificFields = {
+                  DomaineCertification : req.body.DomaineCertification,
+                  TypeCertification : req.body.TypeCertification
+                };
+               break;
+            case 'Fournisseur':
+                specificFields = {
+                    Certifications: req.body.Certifications,
+                    ZoneCouverture: req.body.ZoneCouverture
+                };
+                break;
+            case 'Investisseur':
+                specificFields = {
+                    MontantInvestissement: req.body.MontantInvestissement,
+                    TypeInvestissement: req.body.TypeInvestissement,
+                    DomaineInvestissement: req.body.DomaineInvestissement
+                };
+                break;
+            case 'ONG':
+                specificFields = {
+                    OngVille: req.body.OngVille,
+                    Budget: req.body.Budget
+                };
+                break;
+            // Ajouter d'autres types ici si nécessaire
+            default:
+                throw new Error(`Unknown PME type: ${req.body.Type}`);
+        }
+
+        // Vérifiez le contenu du corps de la requête
+        console.log('req.body:', req.body);
+    
+        // Vérifiez que les champs requis sont présents
+        if (!Nom || !Password || !Email) {
+          return res.status(400).send({ message: 'Nom, Email, et Password sont requis.' });
+        }
+    
+        // Vérifiez si une PME avec le même email existe déjà
+        var existingPme = await PME.findOne({ Email: Email });
+        if (existingPme) {
+          return res.status(400).send({ message: 'Une PME avec cet email existe déjà.' });
+        }
+    
+
+        //WATERFALL CREATE NEW USER
+        asyncLib.waterfall([
+            function(done) {
+                models.PME.findOne({
+                    attributes: ['Email'],
+                    where: { Email: Email }
+                })
+                .then(function(userFound) {
+                    done(null, userFound);
+                })
+                .catch(function(err) {
+                    return res.status(500).json({ 'error': 'unable to verify user'});
+                });
+            },
+            function(userFound, done) {
+                if (!userFound) {
+                    bcrypt.hash(Password, saltRounds) {
+                        done(null, userFound, saltRounds);
+                        //var hashedPassword = await bcrypt.hash(Password, saltRounds);
+                    });
+                } else {
+                    return res.status(409).json({ 'error': 'user already exist' });
+                }
+            },
+            function(userFound, saltRounds, done) {
+                var newUser = models.User.create({
+                    Nom: Nom,
+                    Password: await bcrypt.hash(Password, saltRounds);,
+                    Email: Email,
+                    Tel: Tel,
+                    SiteWeb: SiteWeb,
+                    Logo: Logo,
+                    Effectif: Effectif,
+                    NomResponsable: NomResponsable,
+                    ContactResponsable: ContactResponsable,
+                    Statut_juridique: Statut_juridique,
+                    BoitePostale: BoitePostale,
+                    Langues: Langues,
+                    Activites: Activites,
+                    Tarifications: Tarifications,
+                    Type: Type,
+                    ChiffreAffaire: ChiffreAffaire,
+                    Description: Description,
+                    DateCreation: DateCreation,
+                    Pays: Pays,
+                    Region: Region,
+                    Departement: Departement,
+                    LieuDit: LieuDit,
+                    LocalisationGps: LocalisationGps,
+                    NoteMoyenne: NoteMoyenne,
+                    NombreDeVotes: NombreDeVotes,
+                    //Spécifiques
+                    Projets: Projets,
+                    Certification: Certification,
+                    DomaineCertification: DomaineCertification,
+                    TypeCertification: TypeCertification,
+                    DomaineExpertise: DomaineExpertise,
+                    ZoneCouverture: ZoneCouverture,
+                    MontantInvestissement: MontantInvestissement,
+                    TypeInvestissement: TypeInvestissement,
+                    DomaineInvestissement: DomaineInvestissement,
+                    OngVille: OngVille,
+                    Budget: Budget
+                })
+                .then(function(newUser) {
+                    done(newUser);
+                })
+                .catch(function(err) {
+                    return res.status(500).json({ 'error': 'cannot add user' });
+                });
+            }   
+        ], function(newUser) {
+            if (newUser) {
+                return res.status(201).json({
+                              Nom: Nom,
+                              Password: hashedPassword,
+                              Email: Email,
+                              Tel: Tel,
+                              SiteWeb: SiteWeb,
+                              Logo: Logo,
+                              Effectif: Effectif,
+                              NomResponsable: NomResponsable,
+                              ContactResponsable: ContactResponsable,
+                              Statut_juridique: Statut_juridique,
+                              BoitePostale: BoitePostale,
+                              Langues: Langues,
+                              Activites: Activites,
+                              Tarifications: Tarifications,
+                              Type: Type,
+                              ChiffreAffaire: ChiffreAffaire,
+                              Description: Description,
+                              DateCreation: DateCreation,
+                              Pays: Pays,
+                              Region: Region,
+                              Departement: Departement,
+                              LieuDit: LieuDit,
+                              LocalisationGps: LocalisationGps,
+                              NoteMoyenne: NoteMoyenne,
+                              NombreDeVotes: NombreDeVotes,
+                              //Spécifiques
+                              Projets: Projets,
+                              Certification: Certification,
+                              DomaineCertification: DomaineCertification,
+                              TypeCertification: TypeCertification,
+                              DomaineExpertise: DomaineExpertise,
+                              ZoneCouverture: ZoneCouverture,
+                              MontantInvestissement: MontantInvestissement,
+                              TypeInvestissement: TypeInvestissement,
+                              DomaineInvestissement: DomaineInvestissement,
+                              OngVille: OngVille,
+                              Budget: Budget
+                })
+            } else {
+                return res.status(500).json({ 'error': 'cannot add user' });
+            }
+        });
+        
+    },
+    */
+
     login : async function(req, res) {
       try {
         const { email, password } = req.body;
         console.log('Requête de connexion reçue avec:', { email, password });
     
-        if (!email || !password) {
+        if (email==null || password==null) {
           console.log('Requête incorrecte: champs manquants');
           return res.status(400).send({ message: 'Email et mot de passe sont requis.' });
         }
@@ -103,13 +380,13 @@ module.exports = {
     
         if (!pme) {
           console.log('PME non trouvée pour l\'email:', email);
-          return res.status(404).send({ message: 'Email ou mot de passe incorrect.' });
+          return res.status(404).send({ message: 'Email  incorrect.' });
         }
     
         const isMatch = await bcrypt.compare(password, pme.Password);
         if (!isMatch) {
           console.log('Mot de passe incorrect pour l\'email:', email);
-          return res.status(401).send({ message: 'Email ou mot de passe incorrect.' });
+          return res.status(401).send({ message: 'mot de passe incorrect.' });
         }
     
         const token = jwtUtils.generateTokenForPme(pme);
@@ -134,6 +411,50 @@ module.exports = {
         const pmes = await PME.find();
         // Retourner les PMEs trouvées
         res.status(200).send(pmes);
+      } catch (error) {
+        console.error('Erreur lors de la récupération des PMEs:', error);
+        res.status(500).send({ message: 'Erreur lors de la récupération des PMEs.', error: error.message });
+      }
+    },
+
+    getRecommandations: async function (req, res) {
+      try {
+        // Suppose que l'utilisateur est déjà authentifié et que son ID est disponible
+        const userId = req.user._id;
+        const currentUser = await PME.findById(userId);
+
+        if (!currentUser) {
+          return res.status(404).json({ message: "Utilisateur non trouvé." });
+        }
+
+        const recommendations = await PME.aggregate([
+          {
+              $match: {
+                  // Exclut l'utilisateur actuel
+                  _id: { $ne: currentUser._id },
+                  // Match uniquement les PME du même type
+                  Type: currentUser.Type 
+              }
+          },
+          {
+              $addFields: {
+                  // Exemple d'une approche simple de similarité
+                  similarityScore: { $rand: {} }
+              }
+          },
+          {
+              // Trie par ordre de similarité décroissant
+              $sort: { similarityScore: -1 }
+          },
+          {
+              // Limite le nombre de recommandations
+              $limit: 10 
+          }
+        ]);
+
+        // Retourner les PMEs recommandées trouvées
+        res.status(200).json({ recommendations });
+
       } catch (error) {
         console.error('Erreur lors de la récupération des PMEs:', error);
         res.status(500).send({ message: 'Erreur lors de la récupération des PMEs.', error: error.message });

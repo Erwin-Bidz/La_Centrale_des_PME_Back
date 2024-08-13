@@ -2,9 +2,14 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const metiersSchema = new Schema({
-  id: Number,
-  Matricule: String,
-  Occurence: Number
+  id: {
+    type: Number,
+    required: true
+  },
+  item: {
+    type: String,
+    required: true
+  }
 });
 
 const Metiers = mongoose.model('Metiers', metiersSchema);

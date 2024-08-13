@@ -10,19 +10,14 @@ const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
 const Activites = require('./models/Activites.models');
 const Admin = require('./models/Activites.models');
-const AgentsGouv = require('./models/AgentsGouv.models');
-const Banques = require('./models/Banques.models');
 const Categories = require('./models/Categories.models');
-const Certifications = require('./models/Certifications.models');
-const Experts = require('./models/Experts.models');
-const Fournisseurs = require('./models/Fournisseurs.models');
-const Investisseurs = require('./models/Investisseurs.models');
 const Metiers = require('./models/Metiers.models');
 const Notifications = require('./models/Notifications.models');
-const ONG = require('./models/ONG.models');
 const Outils = require('./models/Outils.models');
 const Paiement = require('./models/Paiement.models');
 const PME = require('./models/PMEmodels');
+const Langues = require('./models/Langues.models');
+const StatutJuridiques = require('./models/StatutJuridiques.models');
 const Processus = require('./models/Processus.models');
 const Produits = require('./models/Produits.models');
 const Services = require('./models/Services.models');
@@ -77,12 +72,4 @@ db.once('open', function() {
 
 //Activites prend l'id de pillarActivity et Metiers prend l'id Activites.
 
-/*******************EJS *****************************/
-//use EJS as the view engine
-app.set('view engine', 'ejs')
-app.get('/api/', (req, res) => {
-  res.render("login");
-})
-app.get('/api/signup', (req, res) => {
-  res.render("signup");
-})
+

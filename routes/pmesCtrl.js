@@ -10,6 +10,9 @@ router.post('/register', pmesControllers.register);
 //  Login des PMEs
 router.post('/login', pmesControllers.login);
 
+//  Consulter la liste des PMEs recommandées
+router.post('/recommandation', pmesControllers.getRecommandations);
+
 //  Consultation des PMEs
 router.get('/list', pmesControllers.list);
 
