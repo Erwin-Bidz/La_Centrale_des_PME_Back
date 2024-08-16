@@ -4,12 +4,12 @@ const { Schema } = mongoose;
 
 //[]
 // Enumération des types possibles
-const typesEnum = ['ONG', 'AgentsGouv', 'Banques', 'Certifications', 'Experts', 'Fournisseurs', 'Investisseurs', 'Autre'];
+const typesEnum = ['ONG', 'AgentGouv', 'Banque', 'Certifications', 'Experts', 'Fournisseur', 'Investisseur', 'Autre'];
 const statutJurid = ['SARL','EURL', 'SAS', 'SASU', 'SA', 'SNC', 'NCI', 'SCOP', 'Association', 'Auto-entrepreneur', 'Micro-entrepreneur', 'Entreprise individuelle',
   'GIE', 'SCA', 'SCS', 'Société en participation', 'Sociale civile', 'Société dexercice libérale', 'Société coopérative', 'Société européene', 'Autre'
 ];
 //"Langues": ["Français", "English", "Deutsch", "Italiano", "Español", "Português", "Autre"],[]
-const Langues = ['Français', 'English', 'Deutsch', 'Italiano', 'Español', 'Português', 'Autre'];
+const Langues = ['Français', 'Anglais', 'Allemand', 'Italien', 'Espagnol', 'Portugais', 'Arabe', 'Autre'];
 //ISO, HACCP, BRC, IFS, FSSC_22000, OHSAS, IATF, CE, NF, MSC, AS9100, LEED, BREEAM, CMMI, PCI_DSS, ITIL, Six_Sigma, Lean_Managemement, FairTrade, PEFC
 //"Agroalimentaire","Industrie", "Santé", "Environnement", "Qualité", "Sécurité", "Informatique", "Éducation", "Finance", "Construction", "Automobile", "Energie", "Télécommunications", "Tourisme", "RH", "Autre"
 
@@ -44,7 +44,7 @@ const Langues = ['Français', 'English', 'Deutsch', 'Italiano', 'Español', 'Por
     NoteMoyenne: { type: Number, default: 0 },
     NombreDeVotes: { type: Number, default: 0 },
 
-    /*****AgentsGouv******500/
+    /*****AgentsGouv******/
     ZoneGouv: String,
 
     /*******Banques*******/

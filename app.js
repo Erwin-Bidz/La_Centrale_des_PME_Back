@@ -27,8 +27,8 @@ const Visibite = require('./models/Visibilite.models');
 
 // Autoriser CORS
 app.use(cors());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ limit: '50mb', extended: true, Timeout: '50000ms' }));
+app.use(bodyParser.json({ limit: '50mb'}));
 
 //Ctrl
 var pmesRoutes = require('./routes/pmesCtrl');

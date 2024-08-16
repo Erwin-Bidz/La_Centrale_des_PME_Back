@@ -1,3 +1,4 @@
+  [
   {
     "Structure": {
       "Nom": "GOVERNMENT EMERGENCY HUMANITARIAN ASSISTANCE",
@@ -120,7 +121,7 @@
         }
       }
     }
-  }
+  },
 
   {
     "Structure": {
@@ -366,7 +367,7 @@
         }
       }
     }
-  }
+  },
 
   {
     "Structure": {
@@ -558,7 +559,7 @@
         }
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -756,7 +757,7 @@
       "mesure_du_niveau_de_bien-être_des_bénéficiaires": "Oui",
       "mesure_du_niveau_de_bien-être_des_migrants_de_retour": "Non"
     }
-  }
+  },
 
   {
     "structure": {
@@ -1028,7 +1029,7 @@
         "migrants_de_retour": "Non"
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -1151,7 +1152,7 @@
         "migrants_de_retour": "Non"
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -1289,7 +1290,7 @@
         "migrants_de_retour": "Non"
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -1434,7 +1435,7 @@
         "migrants_de_retour": "N/I"
       }
     }
-  }
+  },
   
   {
     "structure": {
@@ -1586,7 +1587,7 @@
       "beneficiary_wellbeing_assessment_system": "No",
       "returning_migrant_wellbeing_assessment_system": "No"
     }
-  }
+  },
 
   {
     "structure": {
@@ -1738,7 +1739,7 @@
       "beneficiary_wellbeing_assessment_system": "No",
       "returning_migrant_wellbeing_assessment_system": "No"
     }
-  }
+  },
 
   {
     "structure": {
@@ -1990,7 +1991,7 @@
       "mesure_du_niveau_de_bien-être_des_bénéficiaires": "Oui",
       "mesure_du_niveau_de_bien-être_des_migrants_de_retour": "Non"
     }
-  }
+  },
 
   {
     "structure": {
@@ -2124,7 +2125,7 @@
       "mesure_du_niveau_de_bien-être_des_bénéficiaires": "Oui",
       "mesure_du_niveau_de_bien-être_des_migrants_de_retour": "Non"
     }
-  }
+  },
 
   {
     "structure": {
@@ -2300,7 +2301,7 @@
       "mesure_du_niveau_de_bien-être_des_bénéficiaires": "Non",
       "mesure_du_niveau_de_bien-être_des_migrants_de_retour": "Non"
     }
-  }
+  },
 
   {
     "structure": {
@@ -2407,7 +2408,7 @@
       "mesure_du_niveau_de_bien-être_des_bénéficiaires": "Oui",
       "mesure_du_niveau_de_bien-être_des_migrants_de_retour": "Oui"
     }
-  }
+  },
 
   {
     "structure": {
@@ -2540,7 +2541,7 @@
       "mesure_du_niveau_de_bien-être_des_bénéficiaires": "Oui",
       "mesure_du_niveau_de_bien-être_des_migrants_de_retour": "Non"
     }
-  }
+  },
 
   {
     "structure": {
@@ -2654,7 +2655,7 @@
       "mesure_du_niveau_de_bien-être_des_bénéficiaires": "Oui",
       "mesure_du_niveau_de_bien-être_des_migrants_de_retour": "Non"
     }
-  }
+  },
 
   {
     "structure": "OSC-DOUALA - 'CARE OF HANDICAP'",
@@ -3074,7 +3075,7 @@
       "systeme_mesure_niveau_bien_etre_beneficiaires": "Oui",
       "systeme_mesure_niveau_bien_etre_migrants_de_retour": "Non"
     }
-  }
+  },
 
   {
     "structure": "STRUCTURE PUBLIQUE-DOUALA-UNIVERSITE DE DOUALA",
@@ -3333,7 +3334,7 @@
         "mesure_bien_etre_migrants_retour": "Non"
       }
     }
-  }
+  },
   
   {
     "structure": "STRUCTURE ASSOCIATIVE-DOUALA-« WOMEN UPLIFTMENT PROGRAM-WUP »",
@@ -3435,7 +3436,7 @@
         "mesure_bien_etre_migrants_retour": "Non"
       }
     }
-  }
+  },
 
   {
     "STRUCTURE PRIVÉE": {
@@ -3533,7 +3534,7 @@
         "Existence d’un système de mesure du niveau de bien-être des migrants de retour": "Non"
       }
     }
-  }
+  },
 
   {
     "STRUCTURE ASSOCIATIVE": {
@@ -3653,7 +3654,7 @@
         "Existence d’un système de mesure du niveau de bien-être des migrants de retour": "Non"
       }
     }
-  }
+  },
 
   {
     "structure": "STRUCTURE PRIVÉE-DOUALA-« GLOBAL MOTOR SARL »",
@@ -3774,7 +3775,7 @@
         "mesure_bien_etre_migrants_retour": "Non"
       }
     }
-  }
+  },
 
   {
     "nom": "STRUCTURE PRIVÉE-YAOUNDÉ-« BELINGA GLOIRE DE DIEU »",
@@ -3941,7 +3942,7 @@
       "mesure_bien_etre_beneficiaires": "Non",
       "mesure_bien_etre_migrants": "Non"
     }
-  }
+  },
 
   {
     "nom": "STRUCTURE PRIVÉE-YAOUNDÉ-« FOYER DE L'ESPERANCE ANTONIE B »",
@@ -4140,7 +4141,7 @@
       "mesure_bien_etre_beneficiaires": "Oui",
       "mesure_bien_etre_migrants": "Non"
     }
-  }
+  },
 
   {
     "nom": "STRUCTURE ORGANISATION INTERNATIONALE-YAOUNDÉ-« IFORD »",
@@ -4274,7 +4275,7 @@
       "mesure_bien_etre_beneficiaires": "Oui",
       "mesure_bien_etre_migrants": "Non"
     }
-  }
+  },
 
   {
     "nom": "STRUCTURE PRIVÉE-BERTOUA-« VOCATIONAL TRAINING INSTITUTE FOR FOREIGN LANGUAGE »",
@@ -4404,7 +4405,7 @@
       "mesure_bien_etre_beneficiaires": "Non",
       "mesure_bien_etre_migrants": "Non"
     }
-  }
+  },
 
   {
     "nom": "STRUCTURE ASSOCIATIVE-BERTOUA-« ASSOCIATION AU SECOURS DES ORPHELINS ET AUTRES PERSONNES VULNERABLES (ASOPV) »",
@@ -4558,7 +4559,7 @@
       "mesure_bien_etre_beneficiaires": "Oui",
       "mesure_bien_etre_migrants": "Oui"
     }
-  }
+  },
 
   {
     "nom": "ONG LOCALE-YAOUNDÉ- « ONG ARC-EN-CIEL »",
@@ -4660,7 +4661,7 @@
       "mesure_bien_etre_beneficiaires": "Non",
       "mesure_bien_etre_migrants": "Non"
     }
-  }
+  },
 
   {
     "structure": {
@@ -4772,7 +4773,7 @@
         "système_de_mesure_du_bien_être_migrants_de_retour": false
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -4885,7 +4886,7 @@
         "système_de_mesure_du_bien_être_migrants_de_retour": false
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -4987,7 +4988,7 @@
         "système_de_mesure_du_bien_être_migrants_de_retour": false
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -5093,7 +5094,7 @@
         "système_de_mesure_du_bien_être_migrants_de_retour": false
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -5199,7 +5200,7 @@
         "système_de_mesure_du_bien_être_migrants_de_retour": false
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -5437,7 +5438,7 @@
         "système_de_mesure_du_bien_être_migrants_de_retour": false
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -5538,7 +5539,7 @@
         "système_de_mesure_du_bien_être_des_migrants_de_retour": false
       }
     }
-  }
+  },
 
   {
     "structure": "ONG LOCALE-BAMENDA-« COMMUNITY ACTION FOR ADVANCING SUSTAINABLE DEVELOPMENT »",
@@ -5776,7 +5777,7 @@
         "systeme_mesure_bien_etre_migrants_retour": "Non"
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -5908,7 +5909,7 @@
         "système_de_mesure_du_bien_être_des_migrants_de_retour": false
       }
     }
-  }
+  },
 
   {
     "structure": "STRUCTURE PUBLIQUE-DOUALA-« UNIVERSITÉ DE DOUALA »",
@@ -6170,7 +6171,7 @@
       "mesure_bien_etre_beneficiaires": "Non",
       "mesure_bien_etre_migrants_retour": "Non"
     }
-  }
+  },
 
   {
     "structure": {
@@ -6280,7 +6281,7 @@
         "système_de_mesure_du_bien_être_des_migrants_de_retour": false
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -6411,7 +6412,7 @@
         "système_de_mesure_du_bien_être_des_migrants_de_retour": false
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -6588,7 +6589,7 @@
         "système_de_mesure_du_bien_être_des_migrants_de_retour": false
       }
     }
-  }
+  },
 
   {
     "structure": "ONG LOCALE-YAOUNDE-« INADES FORMATION CAMEROUN »",
@@ -6693,7 +6694,7 @@
       "mesure_bien_etre_beneficiaires": "Non",
       "mesure_bien_etre_migrants_retour": "Non"
     }
-  }
+  },
 
   {
     "structure": "STRUCTURE PUBLIQUE-YAOUNDÉ-« ANAFOR »",
@@ -6878,7 +6879,7 @@
       "mesure_bien_etre_beneficiaires": "Non",
       "mesure_bien_etre_migrants_retour": "Non"
     }
-  }
+  },
 
   {
     "structure": {
@@ -6981,7 +6982,7 @@
         }
       }
     }
-  }
+  },
 
   {
     "structure": {
@@ -7080,7 +7081,7 @@
       }
     }
   }
-  }
+  },
 
   {
     "structure": "STRUCTURE PRIVÉE-YAOUNDÉ-« ONG PAARDIC »",
@@ -7176,7 +7177,7 @@
       "mesure_bien_etre_beneficiaires": "Oui",
       "mesure_bien_etre_migrants_retour": "Non"
     }
-  }
+  },
 
   {
     "STRUCTURE PUBLIQUE-NGAOUNDERE-UNICE": {
@@ -7276,7 +7277,7 @@
       }
     }
   }
-  }
+  },
   
   {
     "STRUCTURE PRIVEE-YAOUNDE-« BANGER BANK CAMEROUN »": {
@@ -7396,7 +7397,7 @@
       }
     }
   }
-  }
+  },
 
   {
     "structure": "STRUCTURE PRIVÉE-BAMENDA-« HOPE FOR ALL COOPERATIVE CREDIT UNION »",
@@ -7516,7 +7517,7 @@
       "mesure_bien_etre_beneficiaires": "Non",
       "mesure_bien_etre_migrants_retour": "Non"
     }
-  }
+  },
 
   {
     "structure": {
@@ -7634,5 +7635,5 @@
       "mesure_du_niveau_de_bien-être_des_migrants_de_retour": "Non"
     }
   }
-
+]
   

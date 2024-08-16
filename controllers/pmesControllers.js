@@ -10,152 +10,121 @@ const bodyParser = require("body-parser");
 
 
 module.exports = {
-    register: async function (req, res) {
-      try {
-        
-        /***Params */
-        //Champs communs
-        const commonFields = {
-          Nom: req.body.Nom,
-          Password: req.body.Password,
-          Logo: req.body.Logo,
-          Email: req.body.Email,
-          Tel: req.body.Tel,
-          SiteWeb: req.body.SiteWeb,
-          Effectif: req.body.Effectif,
-          NomResponsable: req.body.NomResponsable,
-          ContactResponsable: req.body.ContactResponsable,
-          StatutJuridique: req.body.StatutJuridique,
-          BoitePostale: req.body.BoitePostale,
-          Langues: req.body.Langues,
-          Activites: req.body.Activites,
-          Tarifications: req.body.Tarifications,
-          Type: req.body.Type,
-          ChiffreAffaire: req.body.ChiffreAffaire,
-          Description: req.body.Description,
-          DateCreation: req.body.DateCreation,
-          Pays: req.body.Pays,
-          Region: req.body.Region,
-          LocalisationGps: req.body.LocalisationGps,
-          NoteMoyenne: req.body.NoteMoyenne,
-          NombreDeVotes: req.body.NombreDeVotes
-        };
-
-        //Champs spécifiques
-        let specificFields = {};
-        switch (req.body.Type) {
-            case 'AgentGouv':
-                specificFields = {
-                    ZoneGouv: req.body.ZoneGouv
-                };
-                break;
-            case 'Banque':
-                specificFields = {
-                    Projets: req.body.Projets
-                };
-                break;
-            case 'Certifications':
-                specificFields = {
-                  DomaineCertification : req.body.DomaineCertification,
-                  TypeCertification : req.body.TypeCertification
-                };
-               break;
-            case 'Fournisseur':
-                specificFields = {
-                    Certifications: req.body.Certifications,
-                    ZoneCouverture: req.body.ZoneCouverture
-                };
-                break;
-            case 'Investisseur':
-                specificFields = {
-                    MontantInvestissement: req.body.MontantInvestissement,
-                    TypeInvestissement: req.body.TypeInvestissement,
-                    DomaineInvestissement: req.body.DomaineInvestissement
-                };
-                break;
-            case 'ONG':
-                specificFields = {
-                    OngVille: req.body.OngVille,
-                    Budget: req.body.Budget
-                };
-                break;
-            // Ajouter d'autres types ici si nécessaire
-            default:
-                throw new Error(`Unknown PME type: ${req.body.Type}`);
-        }
-
-        // Vérifiez le contenu du corps de la requête
-        console.log('req.body:', req.body);
-    
-        // Vérifiez que les champs requis sont présents
-        if (!Nom || !Password || !Email) {
-          return res.status(400).send({ message: 'Nom, Email, et Password sont requis.' });
-        }
-    
-        // Vérifiez si une PME avec le même email existe déjà
-        var existingPme = await PME.findOne({ Email: Email });
-        if (existingPme) {
-          return res.status(400).send({ message: 'Une PME avec cet email existe déjà.' });
-        }
-    
-        // Hachez le mot de passe
-        var hashedPassword = await bcrypt.hash(Password, saltRounds);
-    
-        // Créez une nouvelle PME
-        var newPme = new PME({
-          Nom: Nom,
-          Password: hashedPassword,
-          Email: Email,
-          Tel: Tel,
-          SiteWeb: SiteWeb,
-          Logo: Logo,
-          Effectif: Effectif,
-          NomResponsable: NomResponsable,
-          ContactResponsable: ContactResponsable,
-          Statut_juridique: Statut_juridique,
-          BoitePostale: BoitePostale,
-          Langues: Langues,
-          Activites: Activites,
-          Tarifications: Tarifications,
-          Type: Type,
-          ChiffreAffaire: ChiffreAffaire,
-          Description: Description,
-          DateCreation: DateCreation,
-          Pays: Pays,
-          Region: Region,
-          Departement: Departement,
-          LieuDit: LieuDit,
-          LocalisationGps: LocalisationGps,
-          NoteMoyenne: NoteMoyenne,
-          NombreDeVotes: NombreDeVotes,
-          //Spécifiques
-          Projets: Projets,
-          Certification: Certification,
-          DomaineCertification: DomaineCertification,
-          TypeCertification: TypeCertification,
-          DomaineExpertise: DomaineExpertise,
-          ZoneCouverture: ZoneCouverture,
-          MontantInvestissement: MontantInvestissement,
-          TypeInvestissement: TypeInvestissement,
-          DomaineInvestissement: DomaineInvestissement,
-          OngVille: OngVille,
-          Budget: Budget
-        });
-    
-        // Sauvegardez la nouvelle PME dans la base de données
-        await newPme.save();
-    
-        // Retournez une réponse de succès
-        res.status(201).send({ message: 'PME enregistrée avec succès!', pme: newPme });
-      } catch (error) {
-        console.error('Erreur dans register:', error);
-        res.status(500).send({ message: 'Erreur lors de l\'enregistrement de la PME.', error: error.message });
+  register : async function (req, res) {
+    try {
+      console.log('Requête reçue:', req.body);
+  
+      // Champs communs
+      const commonFields = {
+        Nom: req.body.Nom,
+        Password: req.body.Password,
+        Logo: req.body.Logo,
+        Email: req.body.Email,
+        Tel: req.body.Tel,
+        SiteWeb: req.body.SiteWeb,
+        Effectif: req.body.Effectif ? Number(req.body.Effectif) : undefined, // Vérifier et convertir en Number
+        NomResponsable: req.body.NomResponsable,
+        ContactResponsable: req.body.ContactResponsable,
+        StatutJuridique: req.body.StatutJuridique,
+        BoitePostale: req.body.BoitePostale,
+        Langues: req.body.Langues,
+        Activites: req.body.Activites,
+        Tarifications: req.body.Tarifications,
+        Type: req.body.Type,
+        ChiffreAffaire: req.body.ChiffreAffaire ? Number(req.body.ChiffreAffaire) : undefined, // Vérifier et convertir en Number
+        Description: req.body.Description,
+        DateCreation: req.body.DateCreation ? new Date(req.body.DateCreation) : undefined, // Vérifier et convertir en Date
+        Pays: req.body.Pays,
+        Region: req.body.Region,
+        LocalisationGps: req.body.LocalisationGps ? req.body.LocalisationGps.map(Number) : undefined, // Vérifier et convertir en Number
+        NoteMoyenne: req.body.NoteMoyenne ? Number(req.body.NoteMoyenne) : undefined, // Vérifier et convertir en Number
+        NombreDeVotes: req.body.NombreDeVotes ? Number(req.body.NombreDeVotes) : undefined // Vérifier et convertir en Number
+      };
+  
+      // Définir les champs spécifiques
+      let specificFields = {};
+      switch (req.body.Type) {
+        case 'AgentGouv':
+          specificFields = { ZoneGouv: req.body.ZoneGouv };
+          break;
+        case 'Banque':
+          specificFields = { Projets: req.body.Projets };
+          break;
+        case 'Certifications':
+          specificFields = {
+            DomaineCertification: req.body.DomaineCertification,
+            TypeCertification: req.body.TypeCertification
+          };
+          break;
+        case 'Fournisseur':
+          specificFields = {
+            Certifications: req.body.Certifications,
+            ZoneCouverture: req.body.ZoneCouverture
+          };
+          break;
+        case 'Investisseur':
+          specificFields = {
+            MontantInvestissement: req.body.MontantInvestissement ? Number(req.body.MontantInvestissement) : undefined,
+            TypeInvestissement: req.body.TypeInvestissement,
+            DomaineInvestissement: req.body.DomaineInvestissement
+          };
+          break;
+        case 'Autre':
+          specificFields = {
+              
+          };
+          break;
+        case 'Experts':
+          specificFields = {
+              DomaineExpertise: req.body.DomaineExpertise
+          };
+            break;
+        case 'ONG':
+          specificFields = {
+            OngVille: req.body.OngVille,
+            Budget: req.body.Budget ? Number(req.body.Budget) : undefined
+          };
+          break;
+        default:
+          return res.status(400).json({ message: "Type de PME non reconnu." });
       }
-
-        
-
-        
-    },
+  
+      console.log('Champs communs:', commonFields);
+      console.log('Champs spécifiques:', specificFields);
+  
+      // Vérifiez les champs requis
+      if (!commonFields.Nom || !commonFields.Password || !commonFields.Email) {
+        return res.status(400).send({ message: 'Nom, Email, et Password sont requis.' });
+      }
+  
+      // Vérifiez si l'email existe déjà
+      var existingPme = await PME.findOne({ Email: commonFields.Email });
+      if (existingPme) {
+        return res.status(400).send({ message: 'Une PME avec cet email existe déjà.' });
+      }
+  
+      // Hash le mot de passe
+      var hashedPassword = await bcrypt.hash(commonFields.Password, saltRounds);
+  
+      // Créez une nouvelle PME en fusionnant les champs communs et spécifiques
+      var newPme = new PME({
+        ...commonFields,
+        ...specificFields,
+        Password: hashedPassword // Remplacez le mot de passe par le mot de passe haché
+      });
+  
+      console.log('PME à sauvegarder:', newPme);
+  
+      // Sauvegarder la nouvelle PME
+      await newPme.save();
+      res.status(201).send({ message: 'PME enregistrée avec succès!', pme: newPme });
+  
+    } catch (error) {
+      console.error('Erreur dans register:', error);
+      res.status(500).send({ message: 'Erreur lors de l\'enregistrement de la PME.', error: error.message });
+    }
+  }
+  ,
 
     /*
     register: function(req, res) {
