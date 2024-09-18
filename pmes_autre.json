@@ -1,0 +1,572 @@
+[
+    {
+        "Nom": "PME-6059",
+        "Password": "passwUSFZEI123",
+        "Email": "contact@pme1850.com",
+        "Tel": "+2376286816769",
+        "SiteWeb": "https://www.pme8098.com",
+        "Logo": "https://www.pme5180.com/logo.png",
+        "Effectif": 194,
+        "NomResponsable": "Responsable-267",
+        "ContactResponsable": "+2376518102464",
+        "StatutJuridique": "EURL",
+        "BoitePostale": "BP-185",
+        "Langues": "Anglais",
+        "Activites": [],
+        "Tarifications": {},
+        "Type": "Autre",
+        "ChiffreAffaire": 571890068,
+        "Description": "Une entreprise polyvalente opérant dans divers secteurs.",
+        "DateCreation": "2000-01-01",
+        "Pays": "Cameroun",
+        "Region": "Sud-Ouest",
+        "Departement": "Département-X",
+        "LieuDit": "Lieu-97",
+        "LocalisationGps": {
+            "type": "Point",
+            "coordinates": [
+                11.617089264713943,
+                2.138765119442853
+            ]
+        },
+        "NoteMoyenne": 1.1,
+        "NombreDeVotes": 18,
+        "SecteurActivite": "Tourisme",
+        "ServicesOfferts": [
+            "Consulting",
+            "Formation",
+            "Maintenance"
+        ],
+        "PublicCible": "Particuliers",
+        "BesoinSpecifique": [
+            "Partenariats",
+            "Financement",
+            "Technologie"
+        ],
+        "Objectifs": [
+            "Accroître la présence locale",
+            "Développer un nouveau produit",
+            "Atteindre une croissance de 10%"
+        ],
+        "DescriptionLibre": "Une entreprise innovante qui cherche à se distinguer par son approche unique.",
+        "ModeleEconomique": "Freemium",
+        "RessourcesDisponibles": [
+            "Financement initial",
+            "Équipement spécialisé",
+            "Infrastructure cloud"
+        ]
+    },
+    {
+        "Nom": "PME-3533",
+        "Password": "passwUSFZEI123",
+        "Email": "contact@pme8035.com",
+        "Tel": "+2376665637517",
+        "SiteWeb": "https://www.pme1695.com",
+        "Logo": "https://www.pme2599.com/logo.png",
+        "Effectif": 357,
+        "NomResponsable": "Responsable-981",
+        "ContactResponsable": "+2376474308260",
+        "StatutJuridique": "EURL",
+        "BoitePostale": "BP-232",
+        "Langues": "Anglais",
+        "Activites": [],
+        "Tarifications": {},
+        "Type": "Autre",
+        "ChiffreAffaire": 177282130,
+        "Description": "Une entreprise polyvalente opérant dans divers secteurs.",
+        "DateCreation": "2000-01-01",
+        "Pays": "Cameroun",
+        "Region": "Littoral",
+        "Departement": "Département-X",
+        "LieuDit": "Lieu-36",
+        "LocalisationGps": {
+            "type": "Point",
+            "coordinates": [
+                9.091673477543768,
+                4.86765331362099
+            ]
+        },
+        "NoteMoyenne": 2.2,
+        "NombreDeVotes": 45,
+        "SecteurActivite": "Commerce",
+        "ServicesOfferts": [
+            "Vente de produits",
+            "Livraison",
+            "Support"
+        ],
+        "PublicCible": "Grandes entreprises",
+        "BesoinSpecifique": [
+            "Marketing",
+            "Expertise technique",
+            "Ressources humaines"
+        ],
+        "Objectifs": [
+            "Améliorer la satisfaction client",
+            "Accéder à de nouveaux marchés",
+            "Lancer des initiatives écologiques"
+        ],
+        "DescriptionLibre": "Une entreprise innovante qui cherche à se distinguer par son approche unique.",
+        "ModeleEconomique": "Consulting",
+        "RessourcesDisponibles": [
+            "Accès à un réseau de distribution",
+            "Partenariats clés",
+            "Expertise sectorielle"
+        ]
+    },
+    {
+        "Nom": "PME-7119",
+        "Password": "passwUSFZEI123",
+        "Email": "contact@pme5134.com",
+        "Tel": "+2376976179585",
+        "SiteWeb": "https://www.pme9304.com",
+        "Logo": "https://www.pme2051.com/logo.png",
+        "Effectif": 168,
+        "NomResponsable": "Responsable-657",
+        "ContactResponsable": "+2376264423336",
+        "StatutJuridique": "EURL",
+        "BoitePostale": "BP-949",
+        "Langues": "Anglais",
+        "Activites": [],
+        "Tarifications": {},
+        "Type": "Autre",
+        "ChiffreAffaire": 338130032,
+        "Description": "Une entreprise polyvalente opérant dans divers secteurs.",
+        "DateCreation": "2002-01-01",
+        "Pays": "Cameroun",
+        "Region": "Littoral",
+        "Departement": "Département-X",
+        "LieuDit": "Lieu-100",
+        "LocalisationGps": {
+            "type": "Point",
+            "coordinates": [
+                12.929280467235914,
+                7.205814931822697
+            ]
+        },
+        "NoteMoyenne": 0.6,
+        "NombreDeVotes": 54,
+        "SecteurActivite": "Tourisme",
+        "ServicesOfferts": [
+            "Vente de produits",
+            "Livraison",
+            "Support"
+        ],
+        "PublicCible": "PME",
+        "BesoinSpecifique": [
+            "Marketing",
+            "Expertise technique",
+            "Ressources humaines"
+        ],
+        "Objectifs": [
+            "Améliorer la satisfaction client",
+            "Accéder à de nouveaux marchés",
+            "Lancer des initiatives écologiques"
+        ],
+        "DescriptionLibre": "Une entreprise innovante qui cherche à se distinguer par son approche unique.",
+        "ModeleEconomique": "Consulting",
+        "RessourcesDisponibles": [
+            "Financement initial",
+            "Équipement spécialisé",
+            "Infrastructure cloud"
+        ]
+    },
+    {
+        "Nom": "PME-7447",
+        "Password": "passwUSFZEI123",
+        "Email": "contact@pme5549.com",
+        "Tel": "+2376160668275",
+        "SiteWeb": "https://www.pme1882.com",
+        "Logo": "https://www.pme4904.com/logo.png",
+        "Effectif": 225,
+        "NomResponsable": "Responsable-275",
+        "ContactResponsable": "+2376514253936",
+        "StatutJuridique": "EURL",
+        "BoitePostale": "BP-519",
+        "Langues": "Anglais",
+        "Activites": [],
+        "Tarifications": {},
+        "Type": "Autre",
+        "ChiffreAffaire": 906222187,
+        "Description": "Une entreprise polyvalente opérant dans divers secteurs.",
+        "DateCreation": "2009-01-01",
+        "Pays": "Cameroun",
+        "Region": "Centre",
+        "Departement": "Département-X",
+        "LieuDit": "Lieu-83",
+        "LocalisationGps": {
+            "type": "Point",
+            "coordinates": [
+                9.101761793747121,
+                5.153908942142399
+            ]
+        },
+        "NoteMoyenne": 4.8,
+        "NombreDeVotes": 69,
+        "SecteurActivite": "Tech",
+        "ServicesOfferts": [
+            "Consulting",
+            "Formation",
+            "Maintenance"
+        ],
+        "PublicCible": "Grandes entreprises",
+        "BesoinSpecifique": [
+            "Accès aux marchés",
+            "Conseils juridiques",
+            "Expansion internationale"
+        ],
+        "Objectifs": [
+            "Améliorer la satisfaction client",
+            "Accéder à de nouveaux marchés",
+            "Lancer des initiatives écologiques"
+        ],
+        "DescriptionLibre": "Une entreprise innovante qui cherche à se distinguer par son approche unique.",
+        "ModeleEconomique": "Freemium",
+        "RessourcesDisponibles": [
+            "Accès à un réseau de distribution",
+            "Partenariats clés",
+            "Expertise sectorielle"
+        ]
+    },
+    {
+        "Nom": "PME-2771",
+        "Password": "passwUSFZEI123",
+        "Email": "contact@pme2617.com",
+        "Tel": "+2376480840841",
+        "SiteWeb": "https://www.pme9883.com",
+        "Logo": "https://www.pme4997.com/logo.png",
+        "Effectif": 280,
+        "NomResponsable": "Responsable-704",
+        "ContactResponsable": "+2376156888595",
+        "StatutJuridique": "EURL",
+        "BoitePostale": "BP-595",
+        "Langues": "Anglais",
+        "Activites": [],
+        "Tarifications": {},
+        "Type": "Autre",
+        "ChiffreAffaire": 595833134,
+        "Description": "Une entreprise polyvalente opérant dans divers secteurs.",
+        "DateCreation": "2009-01-01",
+        "Pays": "Cameroun",
+        "Region": "Nord",
+        "Departement": "Département-X",
+        "LieuDit": "Lieu-81",
+        "LocalisationGps": {
+            "type": "Point",
+            "coordinates": [
+                13.348996593027724,
+                6.28560920344781
+            ]
+        },
+        "NoteMoyenne": 0.7,
+        "NombreDeVotes": 69,
+        "SecteurActivite": "Agriculture",
+        "ServicesOfferts": [
+            "Consulting",
+            "Formation",
+            "Maintenance"
+        ],
+        "PublicCible": "ONG",
+        "BesoinSpecifique": [
+            "Marketing",
+            "Expertise technique",
+            "Ressources humaines"
+        ],
+        "Objectifs": [
+            "Accroître la présence locale",
+            "Développer un nouveau produit",
+            "Atteindre une croissance de 10%"
+        ],
+        "DescriptionLibre": "Une entreprise innovante qui cherche à se distinguer par son approche unique.",
+        "ModeleEconomique": "Freemium",
+        "RessourcesDisponibles": [
+            "Accès à un réseau de distribution",
+            "Partenariats clés",
+            "Expertise sectorielle"
+        ]
+    },
+    {
+        "Nom": "PME-2751",
+        "Password": "passwUSFZEI123",
+        "Email": "contact@pme1209.com",
+        "Tel": "+2376442341870",
+        "SiteWeb": "https://www.pme1021.com",
+        "Logo": "https://www.pme7280.com/logo.png",
+        "Effectif": 214,
+        "NomResponsable": "Responsable-837",
+        "ContactResponsable": "+2376153741740",
+        "StatutJuridique": "EURL",
+        "BoitePostale": "BP-499",
+        "Langues": "Anglais",
+        "Activites": [],
+        "Tarifications": {},
+        "Type": "Autre",
+        "ChiffreAffaire": 426450809,
+        "Description": "Une entreprise polyvalente opérant dans divers secteurs.",
+        "DateCreation": "2014-01-01",
+        "Pays": "Cameroun",
+        "Region": "Sud-Ouest",
+        "Departement": "Département-X",
+        "LieuDit": "Lieu-70",
+        "LocalisationGps": {
+            "type": "Point",
+            "coordinates": [
+                10.758673368185029,
+                11.551647981852106
+            ]
+        },
+        "NoteMoyenne": 4.1,
+        "NombreDeVotes": 97,
+        "SecteurActivite": "Tourisme",
+        "ServicesOfferts": [
+            "Vente de produits",
+            "Livraison",
+            "Support"
+        ],
+        "PublicCible": "ONG",
+        "BesoinSpecifique": [
+            "Accès aux marchés",
+            "Conseils juridiques",
+            "Expansion internationale"
+        ],
+        "Objectifs": [
+            "Accroître la présence locale",
+            "Développer un nouveau produit",
+            "Atteindre une croissance de 10%"
+        ],
+        "DescriptionLibre": "Une entreprise innovante qui cherche à se distinguer par son approche unique.",
+        "ModeleEconomique": "Abonnement",
+        "RessourcesDisponibles": [
+            "Bureaux",
+            "Équipe technique",
+            "Partenaires locaux"
+        ]
+    },
+    {
+        "Nom": "PME-7551",
+        "Password": "passwUSFZEI123",
+        "Email": "contact@pme8135.com",
+        "Tel": "+2376893003869",
+        "SiteWeb": "https://www.pme4382.com",
+        "Logo": "https://www.pme3304.com/logo.png",
+        "Effectif": 352,
+        "NomResponsable": "Responsable-444",
+        "ContactResponsable": "+2376802124405",
+        "StatutJuridique": "EURL",
+        "BoitePostale": "BP-382",
+        "Langues": "Anglais",
+        "Activites": [],
+        "Tarifications": {},
+        "Type": "Autre",
+        "ChiffreAffaire": 801555076,
+        "Description": "Une entreprise polyvalente opérant dans divers secteurs.",
+        "DateCreation": "2012-01-01",
+        "Pays": "Cameroun",
+        "Region": "Littoral",
+        "Departement": "Département-X",
+        "LieuDit": "Lieu-8",
+        "LocalisationGps": {
+            "type": "Point",
+            "coordinates": [
+                15.12653757619721,
+                8.312144411816284
+            ]
+        },
+        "NoteMoyenne": 3.2,
+        "NombreDeVotes": 94,
+        "SecteurActivite": "Agriculture",
+        "ServicesOfferts": [
+            "Vente de produits",
+            "Livraison",
+            "Support"
+        ],
+        "PublicCible": "Particuliers",
+        "BesoinSpecifique": [
+            "Partenariats",
+            "Financement",
+            "Technologie"
+        ],
+        "Objectifs": [
+            "Accroître la présence locale",
+            "Développer un nouveau produit",
+            "Atteindre une croissance de 10%"
+        ],
+        "DescriptionLibre": "Une entreprise innovante qui cherche à se distinguer par son approche unique.",
+        "ModeleEconomique": "Vente directe",
+        "RessourcesDisponibles": [
+            "Bureaux",
+            "Équipe technique",
+            "Partenaires locaux"
+        ]
+    },
+    {
+        "Nom": "PME-4109",
+        "Password": "passwUSFZEI123",
+        "Email": "contact@pme4860.com",
+        "Tel": "+2376244500727",
+        "SiteWeb": "https://www.pme5273.com",
+        "Logo": "https://www.pme6761.com/logo.png",
+        "Effectif": 204,
+        "NomResponsable": "Responsable-819",
+        "ContactResponsable": "+2376862126369",
+        "StatutJuridique": "EURL",
+        "BoitePostale": "BP-129",
+        "Langues": "Anglais",
+        "Activites": [],
+        "Tarifications": {},
+        "Type": "Autre",
+        "ChiffreAffaire": 798263351,
+        "Description": "Une entreprise polyvalente opérant dans divers secteurs.",
+        "DateCreation": "2012-01-01",
+        "Pays": "Cameroun",
+        "Region": "Ouest",
+        "Departement": "Département-X",
+        "LieuDit": "Lieu-50",
+        "LocalisationGps": {
+            "type": "Point",
+            "coordinates": [
+                11.9168360318388,
+                10.503769906150453
+            ]
+        },
+        "NoteMoyenne": 3.1,
+        "NombreDeVotes": 21,
+        "SecteurActivite": "Agriculture",
+        "ServicesOfferts": [
+            "Vente de produits",
+            "Livraison",
+            "Support"
+        ],
+        "PublicCible": "PME",
+        "BesoinSpecifique": [
+            "Partenariats",
+            "Financement",
+            "Technologie"
+        ],
+        "Objectifs": [
+            "Accroître la présence locale",
+            "Développer un nouveau produit",
+            "Atteindre une croissance de 10%"
+        ],
+        "DescriptionLibre": "Une entreprise innovante qui cherche à se distinguer par son approche unique.",
+        "ModeleEconomique": "Commerce électronique",
+        "RessourcesDisponibles": [
+            "Accès à un réseau de distribution",
+            "Partenariats clés",
+            "Expertise sectorielle"
+        ]
+    },
+    {
+        "Nom": "PME-7846",
+        "Password": "passwUSFZEI123",
+        "Email": "contact@pme7744.com",
+        "Tel": "+2376110966837",
+        "SiteWeb": "https://www.pme2166.com",
+        "Logo": "https://www.pme4012.com/logo.png",
+        "Effectif": 212,
+        "NomResponsable": "Responsable-548",
+        "ContactResponsable": "+2376927195941",
+        "StatutJuridique": "EURL",
+        "BoitePostale": "BP-482",
+        "Langues": "Anglais",
+        "Activites": [],
+        "Tarifications": {},
+        "Type": "Autre",
+        "ChiffreAffaire": 683152803,
+        "Description": "Une entreprise polyvalente opérant dans divers secteurs.",
+        "DateCreation": "2009-01-01",
+        "Pays": "Cameroun",
+        "Region": "Centre",
+        "Departement": "Département-X",
+        "LieuDit": "Lieu-50",
+        "LocalisationGps": {
+            "type": "Point",
+            "coordinates": [
+                12.70655550738525,
+                9.480824722652574
+            ]
+        },
+        "NoteMoyenne": 0.0,
+        "NombreDeVotes": 17,
+        "SecteurActivite": "Commerce",
+        "ServicesOfferts": [
+            "Vente de produits",
+            "Livraison",
+            "Support"
+        ],
+        "PublicCible": "ONG",
+        "BesoinSpecifique": [
+            "Partenariats",
+            "Financement",
+            "Technologie"
+        ],
+        "Objectifs": [
+            "Accroître la présence locale",
+            "Développer un nouveau produit",
+            "Atteindre une croissance de 10%"
+        ],
+        "DescriptionLibre": "Une entreprise innovante qui cherche à se distinguer par son approche unique.",
+        "ModeleEconomique": "Consulting",
+        "RessourcesDisponibles": [
+            "Financement initial",
+            "Équipement spécialisé",
+            "Infrastructure cloud"
+        ]
+    },
+    {
+        "Nom": "PME-1092",
+        "Password": "passwUSFZEI123",
+        "Email": "contact@pme3595.com",
+        "Tel": "+2376953182361",
+        "SiteWeb": "https://www.pme8029.com",
+        "Logo": "https://www.pme8564.com/logo.png",
+        "Effectif": 208,
+        "NomResponsable": "Responsable-637",
+        "ContactResponsable": "+2376961359833",
+        "StatutJuridique": "EURL",
+        "BoitePostale": "BP-974",
+        "Langues": "Anglais",
+        "Activites": [],
+        "Tarifications": {},
+        "Type": "Autre",
+        "ChiffreAffaire": 371534928,
+        "Description": "Une entreprise polyvalente opérant dans divers secteurs.",
+        "DateCreation": "2001-01-01",
+        "Pays": "Cameroun",
+        "Region": "Sud-Ouest",
+        "Departement": "Département-X",
+        "LieuDit": "Lieu-62",
+        "LocalisationGps": {
+            "type": "Point",
+            "coordinates": [
+                11.473241326906383,
+                10.643117395944877
+            ]
+        },
+        "NoteMoyenne": 2.8,
+        "NombreDeVotes": 2,
+        "SecteurActivite": "Tech",
+        "ServicesOfferts": [
+            "Consulting",
+            "Formation",
+            "Maintenance"
+        ],
+        "PublicCible": "Particuliers",
+        "BesoinSpecifique": [
+            "Accès aux marchés",
+            "Conseils juridiques",
+            "Expansion internationale"
+        ],
+        "Objectifs": [
+            "Accroître la présence locale",
+            "Développer un nouveau produit",
+            "Atteindre une croissance de 10%"
+        ],
+        "DescriptionLibre": "Une entreprise innovante qui cherche à se distinguer par son approche unique.",
+        "ModeleEconomique": "Freemium",
+        "RessourcesDisponibles": [
+            "Financement initial",
+            "Équipement spécialisé",
+            "Infrastructure cloud"
+        ]
+    }
+]

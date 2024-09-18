@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ac61052ac3bfaeca8d6e7b6772f30011 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ac61052ac3bfaeca8d6e7b6772f30011" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ac61052ac3bfaeca8d6e7b6772f30011 = L.map(
+                "map_ac61052ac3bfaeca8d6e7b6772f30011",
+                {
+                    center: [2.65996, 13.318911],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_03f82b5c97211cdce0561c306cd62062 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_03f82b5c97211cdce0561c306cd62062.addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var marker_2c8d42cae8509f38c01ee80e235be03f = L.marker(
+                [2.65996, 13.318911],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_9d5731297c9dddbce43b838ed9dfde40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconAnchor": [0, 20], "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2c8d42cae8509f38c01ee80e235be03f.setIcon(icon_9d5731297c9dddbce43b838ed9dfde40);
+        
+    
+        var popup_418eb6ae1edd2ac683cab66812d35cdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f8870b4674e53483b56bd25c00b4ddd = $(`<div id="html_8f8870b4674e53483b56bd25c00b4ddd" style="width: 100.0%; height: 100.0%;">Nunc Sed Corp.</div>`)[0];
+                popup_418eb6ae1edd2ac683cab66812d35cdd.setContent(html_8f8870b4674e53483b56bd25c00b4ddd);
+            
+        
+
+        marker_2c8d42cae8509f38c01ee80e235be03f.bindPopup(popup_418eb6ae1edd2ac683cab66812d35cdd)
+        ;
+
+        
+    
+    
+            var marker_73cf2e5f910546dbe58e8bda7c4d1c54 = L.marker(
+                [3.30156, 14.060409],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_4bff62213500720f28102edd9529d209 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_73cf2e5f910546dbe58e8bda7c4d1c54.setIcon(icon_4bff62213500720f28102edd9529d209);
+        
+    
+        var popup_2b54aface0b3fb37fc1d6a1a5312bf99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14f2c16e90b41762add56e31b52e429e = $(`<div id="html_14f2c16e90b41762add56e31b52e429e" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Tincidunt Corp.<br><b>Type :</b> AgentsGouv</div>`)[0];
+                popup_2b54aface0b3fb37fc1d6a1a5312bf99.setContent(html_14f2c16e90b41762add56e31b52e429e);
+            
+        
+
+        marker_73cf2e5f910546dbe58e8bda7c4d1c54.bindPopup(popup_2b54aface0b3fb37fc1d6a1a5312bf99)
+        ;
+
+        
+    
+    
+            var marker_bd2290cef057af73c6304f4949705797 = L.marker(
+                [3.9579, 13.758006],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_6aa9f39ffe01fb4876485a4144f50f3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bd2290cef057af73c6304f4949705797.setIcon(icon_6aa9f39ffe01fb4876485a4144f50f3a);
+        
+    
+        var popup_6391d648cf961e9ce7dc6af78ba6fe55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a58afc7d6696bda53e56a523692d22d8 = $(`<div id="html_a58afc7d6696bda53e56a523692d22d8" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Semper Nam Tempor Foundation<br><b>Type :</b> Fournisseurs</div>`)[0];
+                popup_6391d648cf961e9ce7dc6af78ba6fe55.setContent(html_a58afc7d6696bda53e56a523692d22d8);
+            
+        
+
+        marker_bd2290cef057af73c6304f4949705797.bindPopup(popup_6391d648cf961e9ce7dc6af78ba6fe55)
+        ;
+
+        
+    
+    
+            var marker_67c06538610e4ee3c65d55f228e2e8b5 = L.marker(
+                [3.470399, 13.429839],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_0b6df5b197a6b27950918c07cd5032f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_67c06538610e4ee3c65d55f228e2e8b5.setIcon(icon_0b6df5b197a6b27950918c07cd5032f6);
+        
+    
+        var popup_f149dc6e41d9eea53bd1c203c67b275b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbcb3f3c0ca6bac41403771b079a661d = $(`<div id="html_cbcb3f3c0ca6bac41403771b079a661d" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Convallis Est Inc.<br><b>Type :</b> AgentsGouv</div>`)[0];
+                popup_f149dc6e41d9eea53bd1c203c67b275b.setContent(html_cbcb3f3c0ca6bac41403771b079a661d);
+            
+        
+
+        marker_67c06538610e4ee3c65d55f228e2e8b5.bindPopup(popup_f149dc6e41d9eea53bd1c203c67b275b)
+        ;
+
+        
+    
+    
+            var marker_899f5d9ed5a743c9e2e7f76149acc91b = L.marker(
+                [2.455311, 12.852788],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_2a03665b82c798a2093daf4676be87a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_899f5d9ed5a743c9e2e7f76149acc91b.setIcon(icon_2a03665b82c798a2093daf4676be87a6);
+        
+    
+        var popup_af1e939b29a937dc7b2e810d26bd4951 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e518ed1ccb76cd2a8b39b16dc1bd615 = $(`<div id="html_6e518ed1ccb76cd2a8b39b16dc1bd615" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Dui In Sodales Limited<br><b>Type :</b> ONG</div>`)[0];
+                popup_af1e939b29a937dc7b2e810d26bd4951.setContent(html_6e518ed1ccb76cd2a8b39b16dc1bd615);
+            
+        
+
+        marker_899f5d9ed5a743c9e2e7f76149acc91b.bindPopup(popup_af1e939b29a937dc7b2e810d26bd4951)
+        ;
+
+        
+    
+    
+            var marker_ee0fd3158ccc9fe8052c31379cc7e1d4 = L.marker(
+                [4.043455, 13.531783],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_ccb5d69a4a7350963e8603a78c446707 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ee0fd3158ccc9fe8052c31379cc7e1d4.setIcon(icon_ccb5d69a4a7350963e8603a78c446707);
+        
+    
+        var popup_e36b32d5ec3620305f95956a3975b263 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5daa5fb10b24989822ad9b7399609c0b = $(`<div id="html_5daa5fb10b24989822ad9b7399609c0b" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Egestas Aliquam Fringilla Incorporated<br><b>Type :</b> AgentsGouv</div>`)[0];
+                popup_e36b32d5ec3620305f95956a3975b263.setContent(html_5daa5fb10b24989822ad9b7399609c0b);
+            
+        
+
+        marker_ee0fd3158ccc9fe8052c31379cc7e1d4.bindPopup(popup_e36b32d5ec3620305f95956a3975b263)
+        ;
+
+        
+    
+    
+            var marker_39c5268c1ca99e3a05c2fa14fc42ae84 = L.marker(
+                [3.319174, 13.373025],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_73132d526277532d9c5b0630d71a1282 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_39c5268c1ca99e3a05c2fa14fc42ae84.setIcon(icon_73132d526277532d9c5b0630d71a1282);
+        
+    
+        var popup_2b2b31d25e39192f046b04ec342f163b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cede2b4ad7730c1a4ffb88c306fe92f4 = $(`<div id="html_cede2b4ad7730c1a4ffb88c306fe92f4" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Tincidunt Nunc Ac Foundation<br><b>Type :</b> Fournisseurs</div>`)[0];
+                popup_2b2b31d25e39192f046b04ec342f163b.setContent(html_cede2b4ad7730c1a4ffb88c306fe92f4);
+            
+        
+
+        marker_39c5268c1ca99e3a05c2fa14fc42ae84.bindPopup(popup_2b2b31d25e39192f046b04ec342f163b)
+        ;
+
+        
+    
+    
+            var marker_4f25ec5acd0b16dda888f198095a7053 = L.marker(
+                [3.045841, 13.234496],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_31975ca9d7e0e2f8ffc0d65692c6ea77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4f25ec5acd0b16dda888f198095a7053.setIcon(icon_31975ca9d7e0e2f8ffc0d65692c6ea77);
+        
+    
+        var popup_01459c6d07ba149fb633652168b68493 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4360228696ff322154fc8cc95b44066 = $(`<div id="html_b4360228696ff322154fc8cc95b44066" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Nec Mollis LLP<br><b>Type :</b> AgentsGouv</div>`)[0];
+                popup_01459c6d07ba149fb633652168b68493.setContent(html_b4360228696ff322154fc8cc95b44066);
+            
+        
+
+        marker_4f25ec5acd0b16dda888f198095a7053.bindPopup(popup_01459c6d07ba149fb633652168b68493)
+        ;
+
+        
+    
+    
+            var marker_32f56e47f49b67b6e61fdb87c99bc8de = L.marker(
+                [3.039774, 15.149931],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_bc5dd3105979b3eeab096f1ba5ba9e76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32f56e47f49b67b6e61fdb87c99bc8de.setIcon(icon_bc5dd3105979b3eeab096f1ba5ba9e76);
+        
+    
+        var popup_5fc18fc1d22a26b189a5123e65c09c0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dff4d89d486e9f4f63ac541be6fb2176 = $(`<div id="html_dff4d89d486e9f4f63ac541be6fb2176" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Id Ante Industries<br><b>Type :</b> Fournisseurs</div>`)[0];
+                popup_5fc18fc1d22a26b189a5123e65c09c0e.setContent(html_dff4d89d486e9f4f63ac541be6fb2176);
+            
+        
+
+        marker_32f56e47f49b67b6e61fdb87c99bc8de.bindPopup(popup_5fc18fc1d22a26b189a5123e65c09c0e)
+        ;
+
+        
+    
+    
+            var marker_d53142d71c954506be9a22f1a05d0f13 = L.marker(
+                [2.479563, 11.62432],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_b338dd2214a00585fc14c3b9f4a4206b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d53142d71c954506be9a22f1a05d0f13.setIcon(icon_b338dd2214a00585fc14c3b9f4a4206b);
+        
+    
+        var popup_206f90c2f2a185af6d25b5f1f003b0d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6002688dcc3773837a656dae89e4f13a = $(`<div id="html_6002688dcc3773837a656dae89e4f13a" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Mi Foundation<br><b>Type :</b> AgentsGouv</div>`)[0];
+                popup_206f90c2f2a185af6d25b5f1f003b0d8.setContent(html_6002688dcc3773837a656dae89e4f13a);
+            
+        
+
+        marker_d53142d71c954506be9a22f1a05d0f13.bindPopup(popup_206f90c2f2a185af6d25b5f1f003b0d8)
+        ;
+
+        
+    
+    
+            var marker_1c70459cd58311aa5f0b601103473422 = L.marker(
+                [2.605695, 13.920278],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_16e25079cd534efc155683099e97c2bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c70459cd58311aa5f0b601103473422.setIcon(icon_16e25079cd534efc155683099e97c2bb);
+        
+    
+        var popup_861869fb09ded9eadbdf72ec05355387 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aff1b162450df622295c38cea5db0f3c = $(`<div id="html_aff1b162450df622295c38cea5db0f3c" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Penatibus LLP<br><b>Type :</b> Fournisseurs</div>`)[0];
+                popup_861869fb09ded9eadbdf72ec05355387.setContent(html_aff1b162450df622295c38cea5db0f3c);
+            
+        
+
+        marker_1c70459cd58311aa5f0b601103473422.bindPopup(popup_861869fb09ded9eadbdf72ec05355387)
+        ;
+
+        
+    
+    
+            var marker_b22deed8b9312c069a8a51a0f096eda9 = L.marker(
+                [3.875073, 13.63415],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_11ea30e46f49fba5926453c1b79bd0d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "icon-thumbs-up-alt", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b22deed8b9312c069a8a51a0f096eda9.setIcon(icon_11ea30e46f49fba5926453c1b79bd0d5);
+        
+    
+        var popup_639ef18fc1eb48a21843ba0ac226656b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9b1dc0c9c57cdf411ba3df2e1809a07 = $(`<div id="html_c9b1dc0c9c57cdf411ba3df2e1809a07" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Senectus Et Netus Industries<br><b>Type :</b> ONG</div>`)[0];
+                popup_639ef18fc1eb48a21843ba0ac226656b.setContent(html_c9b1dc0c9c57cdf411ba3df2e1809a07);
+            
+        
+
+        marker_b22deed8b9312c069a8a51a0f096eda9.bindPopup(popup_639ef18fc1eb48a21843ba0ac226656b)
+        ;
+
+        
+    
+    
+            var marker_3fdfa1d1c2aa804fa749af4468a93c39 = L.marker(
+                [4.266942, 12.145116],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_544de890463eab8c28921c9fa9213ae5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "icon-thumbs-up-alt", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3fdfa1d1c2aa804fa749af4468a93c39.setIcon(icon_544de890463eab8c28921c9fa9213ae5);
+        
+    
+        var popup_6563ab7367292a8a44e69b895bbe730d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f922befb242db30e1f9b0c64c9b011d = $(`<div id="html_7f922befb242db30e1f9b0c64c9b011d" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Litora Torquent Per LLC<br><b>Type :</b> Fournisseurs</div>`)[0];
+                popup_6563ab7367292a8a44e69b895bbe730d.setContent(html_7f922befb242db30e1f9b0c64c9b011d);
+            
+        
+
+        marker_3fdfa1d1c2aa804fa749af4468a93c39.bindPopup(popup_6563ab7367292a8a44e69b895bbe730d)
+        ;
+
+        
+    
+    
+            var marker_adab5a98957ed42fe8ec225a20710a2e = L.marker(
+                [3.484626, 13.37966],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_676b53ce1acd1eb4bda8f9688b17ad81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "icon-thumbs-up-alt", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_adab5a98957ed42fe8ec225a20710a2e.setIcon(icon_676b53ce1acd1eb4bda8f9688b17ad81);
+        
+    
+        var popup_8eec731c70164300197cfc393cb56cf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b409ff0cad01583073ff31aed69ff319 = $(`<div id="html_b409ff0cad01583073ff31aed69ff319" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Eget Industries<br><b>Type :</b> AgentsGouv</div>`)[0];
+                popup_8eec731c70164300197cfc393cb56cf2.setContent(html_b409ff0cad01583073ff31aed69ff319);
+            
+        
+
+        marker_adab5a98957ed42fe8ec225a20710a2e.bindPopup(popup_8eec731c70164300197cfc393cb56cf2)
+        ;
+
+        
+    
+    
+            var marker_44e61d96d736d3eaad201ca9056a2d51 = L.marker(
+                [3.815421, 15.043414],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_44ca26397773b2eae3de30e7f5770e8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "icon-thumbs-up-alt", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_44e61d96d736d3eaad201ca9056a2d51.setIcon(icon_44ca26397773b2eae3de30e7f5770e8c);
+        
+    
+        var popup_c72725c3ab8cca971fd4f135982e86f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f15b3a6050470bdc509661579b582415 = $(`<div id="html_f15b3a6050470bdc509661579b582415" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Eget Lacus Mauris Associates<br><b>Type :</b> Fournisseurs</div>`)[0];
+                popup_c72725c3ab8cca971fd4f135982e86f4.setContent(html_f15b3a6050470bdc509661579b582415);
+            
+        
+
+        marker_44e61d96d736d3eaad201ca9056a2d51.bindPopup(popup_c72725c3ab8cca971fd4f135982e86f4)
+        ;
+
+        
+    
+    
+            var marker_a374bf7f69d2cc8ee79665fe1ec2ccbf = L.marker(
+                [4.555067, 14.705711],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_aea5d30b601eabbc67ed400bb0268b5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "icon-thumbs-up-alt", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a374bf7f69d2cc8ee79665fe1ec2ccbf.setIcon(icon_aea5d30b601eabbc67ed400bb0268b5e);
+        
+    
+        var popup_7f950ffa996f130122df7ab02f7aab16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_451e60d8a05a7c2e9d67f5604fe7c759 = $(`<div id="html_451e60d8a05a7c2e9d67f5604fe7c759" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Metus LLP<br><b>Type :</b> AgentsGouv</div>`)[0];
+                popup_7f950ffa996f130122df7ab02f7aab16.setContent(html_451e60d8a05a7c2e9d67f5604fe7c759);
+            
+        
+
+        marker_a374bf7f69d2cc8ee79665fe1ec2ccbf.bindPopup(popup_7f950ffa996f130122df7ab02f7aab16)
+        ;
+
+        
+    
+    
+            var marker_fc4da0d61cb3ac2e1281dc163797cfa6 = L.marker(
+                [3.438886, 13.415046],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_428ab6a7691fc8d6ff7f1f20d48f369a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "icon-thumbs-up-alt", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fc4da0d61cb3ac2e1281dc163797cfa6.setIcon(icon_428ab6a7691fc8d6ff7f1f20d48f369a);
+        
+    
+        var popup_7087890a157defd43bde780a1d269906 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8227f66e201f62e5ec56b1c9afe9b5ee = $(`<div id="html_8227f66e201f62e5ec56b1c9afe9b5ee" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Accumsan Foundation<br><b>Type :</b> ONG</div>`)[0];
+                popup_7087890a157defd43bde780a1d269906.setContent(html_8227f66e201f62e5ec56b1c9afe9b5ee);
+            
+        
+
+        marker_fc4da0d61cb3ac2e1281dc163797cfa6.bindPopup(popup_7087890a157defd43bde780a1d269906)
+        ;
+
+        
+    
+    
+            var marker_a751754a446bdab3b716c533e8e47350 = L.marker(
+                [5.567555, 14.042455],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_cc4f26334156142254f467b77ce55982 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "icon-thumbs-up-alt", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a751754a446bdab3b716c533e8e47350.setIcon(icon_cc4f26334156142254f467b77ce55982);
+        
+    
+        var popup_2ffb57bcb5dc5cb5ccb5a5ceca7d89b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e2f2125299c748b015f198ba73b856e = $(`<div id="html_6e2f2125299c748b015f198ba73b856e" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Nunc Sollicitudin Incorporated<br><b>Type :</b> Fournisseurs</div>`)[0];
+                popup_2ffb57bcb5dc5cb5ccb5a5ceca7d89b5.setContent(html_6e2f2125299c748b015f198ba73b856e);
+            
+        
+
+        marker_a751754a446bdab3b716c533e8e47350.bindPopup(popup_2ffb57bcb5dc5cb5ccb5a5ceca7d89b5)
+        ;
+
+        
+    
+    
+            var marker_472acde5ff0473833eec973e940a086f = L.marker(
+                [2.030956, 14.015172],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_4eaba3b818c51bbe8add97a39059f3db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "icon-thumbs-up-alt", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_472acde5ff0473833eec973e940a086f.setIcon(icon_4eaba3b818c51bbe8add97a39059f3db);
+        
+    
+        var popup_60390d3a794afd0c94ac7d063909c62a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c6fba6774033eb499fec58bb9ca2ce0 = $(`<div id="html_9c6fba6774033eb499fec58bb9ca2ce0" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Libero Nec Company<br><b>Type :</b> AgentsGouv</div>`)[0];
+                popup_60390d3a794afd0c94ac7d063909c62a.setContent(html_9c6fba6774033eb499fec58bb9ca2ce0);
+            
+        
+
+        marker_472acde5ff0473833eec973e940a086f.bindPopup(popup_60390d3a794afd0c94ac7d063909c62a)
+        ;
+
+        
+    
+    
+            var marker_2e0fd64c43b3b782227bb2c1d14ea3f6 = L.marker(
+                [3.742722, 13.67501],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_11d638ca62774cd40e3639d2b658cf6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "icon-thumbs-up-alt", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e0fd64c43b3b782227bb2c1d14ea3f6.setIcon(icon_11d638ca62774cd40e3639d2b658cf6d);
+        
+    
+        var popup_c612985eb49803abeac33180a538582d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aca82035f49851f0306f007f6dda2041 = $(`<div id="html_aca82035f49851f0306f007f6dda2041" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Mattis Velit Consulting<br><b>Type :</b> Fournisseurs</div>`)[0];
+                popup_c612985eb49803abeac33180a538582d.setContent(html_aca82035f49851f0306f007f6dda2041);
+            
+        
+
+        marker_2e0fd64c43b3b782227bb2c1d14ea3f6.bindPopup(popup_c612985eb49803abeac33180a538582d)
+        ;
+
+        
+    
+    
+            var marker_e72128c3923a27f0740a42298f736b78 = L.marker(
+                [2.648336, 11.683492],
+                {}
+            ).addTo(map_ac61052ac3bfaeca8d6e7b6772f30011);
+        
+    
+            var icon_39c04a6983c5842f17ac017087db4d7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "icon-thumbs-up-alt", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e72128c3923a27f0740a42298f736b78.setIcon(icon_39c04a6983c5842f17ac017087db4d7b);
+        
+    
+        var popup_1b2d73518c551db1dcd7bfa7059ba7c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93f4e3afa2b7e58b1f4bf09c4bb37676 = $(`<div id="html_93f4e3afa2b7e58b1f4bf09c4bb37676" style="width: 100.0%; height: 100.0%;"><b>Nom :</b> Etiam Ligula Ltd<br><b>Type :</b> AgentsGouv</div>`)[0];
+                popup_1b2d73518c551db1dcd7bfa7059ba7c6.setContent(html_93f4e3afa2b7e58b1f4bf09c4bb37676);
+            
+        
+
+        marker_e72128c3923a27f0740a42298f736b78.bindPopup(popup_1b2d73518c551db1dcd7bfa7059ba7c6)
+        ;
+
+        
+    
+</script>
+</html>

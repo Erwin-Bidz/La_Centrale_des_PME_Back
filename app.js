@@ -16,6 +16,7 @@ const Notifications = require('./models/Notifications.models');
 const Outils = require('./models/Outils.models');
 const Paiement = require('./models/Paiement.models');
 const PME = require('./models/PMEmodels');
+const Pilier = require('./models/Pilier.models');
 const Langues = require('./models/Langues.models');
 const StatutJuridiques = require('./models/StatutJuridiques.models');
 const Processus = require('./models/Processus.models');
@@ -34,6 +35,9 @@ app.use(bodyParser.json({ limit: '50mb'}));
 var pmesRoutes = require('./routes/pmesCtrl');
 var adminsRoutes = require('./routes/adminsCtrl');
 var usersRoutes = require('./routes/usersCtrl');
+//netstat -ano | findstr :8080
+//taskkill /PID <PID> /F
+//taskkill /PID 4568 /F
 
 
 

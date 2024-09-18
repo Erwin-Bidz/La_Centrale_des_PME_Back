@@ -4,7 +4,7 @@ const { Schema } = mongoose;
 
 //[]
 // Enumération des types possibles
-const typesEnum = ['ONG', 'AgentGouv', 'Banque', 'Certifications', 'Experts', 'Fournisseur', 'Investisseur', 'Autre'];
+const typesEnum = ['ONG', 'AgentGouv', 'Banque', 'Certification', 'Expert', 'Fournisseur', 'Investisseur', 'Autre'];
 const statutJurid = ['SARL','EURL', 'SAS', 'SASU', 'SA', 'SNC', 'NCI', 'SCOP', 'Association', 'Auto-entrepreneur', 'Micro-entrepreneur', 'Entreprise individuelle',
   'GIE', 'SCA', 'SCS', 'Société en participation', 'Sociale civile', 'Société dexercice libérale', 'Société coopérative', 'Société européene', 'Autre'
 ];
@@ -27,7 +27,13 @@ const Langues = ['Français', 'Anglais', 'Allemand', 'Italien', 'Espagnol', 'Por
     StatutJuridique: [{ type: String, statut: statutJurid, required: true }],
     BoitePostale: String,
     Langues: [{ type: String, Langue: Langues, required: true }],
+    //New
     Activites: [{ type: Schema.Types.ObjectId, ref: 'Activites' }],
+    Metiers: [{ type: Schema.Types.ObjectId, ref: 'Metiers' }],
+    Piliers: [{ type: Schema.Types.ObjectId, ref: 'Piliers' }],
+    NAF: String,  // Code NAF
+    division_id: { type: Schema.Types.ObjectId, ref: 'Division' },
+    //
     Tarifications: { type: Schema.Types.Mixed, default: {} },
     Type: { type: String, enum: typesEnum, required: true },
     ChiffreAffaire: BigInt,
@@ -37,12 +43,16 @@ const Langues = ['Français', 'Anglais', 'Allemand', 'Italien', 'Espagnol', 'Por
     Region: String,
     Departement: String,
     LieuDit: String,
-    LocalisationGps:  {
-      type: { type: String, default: 'Point' },
-      coordinates: { type: [Number], index: '2dsphere' }
-    },
-    NoteMoyenne: { type: Number, default: 0 },
-    NombreDeVotes: { type: Number, default: 0 },
+    LocalisationGps: {
+      type: [Number],  // Accepter un tableau de deux nombres (latitude, longitude)
+      validate: {
+          validator: function(arr) {
+              return arr.length === 2;
+          },
+          message: props => `${props.value} n'est pas une localisation valide !`
+      }
+  },
+    
 
     /*****AgentsGouv******/
     ZoneGouv: String,
@@ -69,7 +79,31 @@ const Langues = ['Français', 'Anglais', 'Allemand', 'Italien', 'Espagnol', 'Por
 
     /*******ONG************500*/
     OngVille: String,
-    Budget: BigInt
+    Budget: BigInt,
+
+    /*******Autre*******/
+    SecteurActivite: String,
+    ServicesOfferts: [String],
+    PublicCible: String,
+    BesoinSpecifique: [String],
+    Objectifs: [String],
+    RessourcesDisponibles: [String],
+
+    /*******Nouveaux Champs pour Notations*******/
+    NoteMoyenne: { type: Number, default: 0 },
+    NombreDeVotes: { type: Number, default: 0 },
+
+    /*******Nouveaux Champs pour l'Abonnement*******/
+    Abonnement: {
+      type: { type: String, enum: ['Gratuit', 'Premium', 'VIP'], default: 'Gratuit' },  // Type d'abonnement
+      DateDebut: { type: Date, default: Date.now },  // Date de début de l'abonnement
+      DateFin: { type: Date },  // Date de fin de l'abonnement (optionnelle pour 'Gratuit')
+      Actif: { type: Boolean, default: true }  // Statut de l'abonnement
+    },
+
+    /*******Nouveaux Champs pour Likes et Follows*******/
+    Likes: [{ type: Schema.Types.ObjectId, ref: 'pmes' }],   // Liste des PME likées
+    Follows: [{ type: Schema.Types.ObjectId, ref: 'pmes' }]  // Liste des PME suivies
   });
 
   // Middleware avant sauvegarde (pre-save) pour gérer les champs en fonction du type 

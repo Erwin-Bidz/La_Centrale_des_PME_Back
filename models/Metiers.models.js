@@ -9,6 +9,10 @@ const metiersSchema = new Schema({
   item: {
     type: String,
     required: true
+  },
+  description: {
+    type: String,
+    required: true
   }
 });
 

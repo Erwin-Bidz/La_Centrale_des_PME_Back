@@ -71,7 +71,13 @@ module.exports = {
           break;
         case 'Autre':
           specificFields = {
-              
+              SecteurActivite: req.body.SecteurActivite,
+              ServicesOfferts: req.body.ServicesOfferts,
+              PublicCible: req.body.PublicCible,
+              BesoinSpecifique: req.body.BesoinSpecifique,
+              Objectifs: req.body.Objectifs,
+              ModeleEconomique: req.body.ModeleEconomique,
+              RessourcesDisponibles: req.body.RessourcesDisponibles
           };
           break;
         case 'Experts':

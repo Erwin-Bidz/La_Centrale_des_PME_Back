@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87853b6a-00b5-4540-9b9c-833cbe29f307" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../activi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autre.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../controllers/recommandationControllers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../models/pme_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pmes_autre.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculate_similarity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/identify_relationships.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map_pmes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map_recommandation_pmes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommandation_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visualization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recommender/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recommender/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recommender/notebooks/algorithm_complexity.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recommender/notebooks/data_visualization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recommender/recommender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recommender/similarity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recommender/visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../routes/recommandationsCtrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../services/recommandationService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../statut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tarification.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/test_integration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/test_recommender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/test_similarity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tests/test_with_real_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../controllers/pmesControllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../controllers/pmesControllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fournisseurData.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../fournisseurData.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../models/PMEmodels.js" beforeDir="false" afterPath="$PROJECT_DIR$/../models/PMEmodels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mon_fichier.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../services/recommandationService.js" beforeDir="false" afterPath="$PROJECT_DIR$/../services/recommandationService.Js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tarifications.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../tarifications.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2lnG1qrZK2wsovdXeAN0Cy3Bq67" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87853b6a-00b5-4540-9b9c-833cbe29f307" name="Changes" comment="" />
+      <created>1725808219200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725808219200</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
