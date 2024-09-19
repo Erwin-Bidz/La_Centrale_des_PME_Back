@@ -28,11 +28,18 @@ const Langues = ['Français', 'Anglais', 'Allemand', 'Italien', 'Espagnol', 'Por
     BoitePostale: String,
     Langues: [{ type: String, Langue: Langues, required: true }],
     //New
-    Activites: [{ type: Schema.Types.ObjectId, ref: 'Activites' }],
-    Metiers: [{ type: Schema.Types.ObjectId, ref: 'Metiers' }],
-    Piliers: [{ type: Schema.Types.ObjectId, ref: 'Piliers' }],
-    NAF: String,  // Code NAF
-    division_id: { type: Schema.Types.ObjectId, ref: 'Division' },
+    // Références vers les activités, métiers et piliers
+    Activites: [{ type: Schema.Types.ObjectId, ref: 'Activites' }],  // Liste des activités choisies
+    Metiers: [{ type: Schema.Types.ObjectId, ref: 'Metiers' }],      // Correspondance métier
+    Piliers: [{ type: Schema.Types.ObjectId, ref: 'Piliers' }],      // Correspondance pilier
+    
+    // Champs supplémentaires
+    NAF: { type: String },  // Code NAF de l'activité choisie
+    ActiviteDescription: { type: String },  // Description de l'activité (généré via l'ID de l'activité)
+    
+    // Informations d'activité et de division
+    division_id: { type: Schema.Types.ObjectId, ref: 'Division' },  // Division associée à l'activité
+    
     //
     Tarifications: { type: Schema.Types.Mixed, default: {} },
     Type: { type: String, enum: typesEnum, required: true },
