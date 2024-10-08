@@ -29,7 +29,7 @@ const Visibite = require('./models/Visibilite.models');
 
 //Gestion des sessions
 app.use(session({
-  //secret: 'your-secret',
+  secret: 'your-secret',
   resave: false,
   saveUninitialized: true,
   cookie: {
@@ -37,7 +37,7 @@ app.use(session({
     httpOnly: true,
     maxAge: 60000
   }
-}));
+}))
 
 // Autoriser CORS
 app.use(cors());
@@ -53,9 +53,6 @@ var usersRoutes = require('./routes/usersCtrl');
 //taskkill /PID 4568 /F
 
 
-module.exports = (req, res) => {
-  res.status(200).json({ message: 'Hello from Vercel!' });
-};
 app.get('/', (req,res) => res.send('Hello some SME CITY!'))
 // Démarrer le serveur après la connexion réussie à MongoDB
 app.listen(port, () => {
@@ -64,6 +61,10 @@ app.listen(port, () => {
 app.listen(porte, () => {
   console.log(`Le serveur écoute sur le port http://localhost:${porte}`);
 });
+
+//Route par défaut
+app.use('./')
+
 // Routes vers nos différentes fonctions.
 // Routes pour les PMEs
 app.use('/api/pmes', pmesRoutes);
