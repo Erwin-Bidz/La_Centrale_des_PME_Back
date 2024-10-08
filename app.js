@@ -53,7 +53,9 @@ var usersRoutes = require('./routes/usersCtrl');
 //taskkill /PID 4568 /F
 
 
-
+module.exports = (req, res) => {
+  res.status(200).json({ message: 'Hello from Vercel!' });
+};
 app.get('/', (req,res) => res.send('Hello some SME CITY!'))
 // Démarrer le serveur après la connexion réussie à MongoDB
 app.listen(port, () => {
