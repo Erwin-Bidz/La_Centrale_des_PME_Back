@@ -1,0 +1,15 @@
+# Ignorer le fichier .env
+.env
+
+# Ignorer les dossiers node_modules
+node_modules/
+
+# Ignorer les fichiers logs
+*.log
+
+# Ignorer le répertoire de build
+/dist
+/build
+
+# Ignorer les fichiers de configuration spécifiques à l'environnement
+.DS_Store

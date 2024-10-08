@@ -1,4 +1,5 @@
 const express = require('express')
+const session = require('express-session');
 //const bcrypt = require('bcrypt')
 
 const app = express()
@@ -25,6 +26,18 @@ const Services = require('./models/Services.models');
 const Social = require('./models/Social.models');
 const SousCategories = require('./models/SousCategories.models');
 const Visibite = require('./models/Visibilite.models');
+
+//Gestion des sessions
+app.use(session({
+  //secret: 'your-secret',
+  resave: false,
+  saveUninitialized: true,
+  cookie: {
+    secure: true,
+    httpOnly: true,
+    maxAge: 60000
+  }
+}));
 
 // Autoriser CORS
 app.use(cors());
@@ -62,7 +75,9 @@ app.get('/api/pmes/:id/:name', (req, res) => {
 
 
 //**************** Connexion à la base de données Mongodb ***************************//
-mongoose.connect('mongodb://localhost:27017/SMEdb',
+
+
+/*mongoose.connect('mongodb://localhost:27017/SMEdb',
  { 
   useNewUrlParser: true,
   useUnifiedTopology: true }
@@ -71,9 +86,21 @@ const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
   console.log('Connected to MongoDB');
-});
+}); */
 //Instance == serveur == bd == collection == document == _id+données
 
 //Activites prend l'id de pillarActivity et Metiers prend l'id Activites.
 
+require('dotenv').config();
 
+// Connexion à MongoDB Atlas avec dotenv
+mongoose.connect(process.env.MONGO_URI, { 
+  useNewUrlParser: true,
+  useUnifiedTopology: true 
+});
+
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  console.log('Connected to MongoDB Atlas');
+});
