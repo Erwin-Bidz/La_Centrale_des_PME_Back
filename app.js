@@ -1,11 +1,14 @@
 const express = require('express')
 const session = require('express-session');
+const MongoStore = require('connect-mongo');
+require('dotenv').config();
+
 //const bcrypt = require('bcrypt')
 
 const app = express()
 const cors = require('cors');
 const port = process.env.PORT || 8080
-const porte = 3000
+//const porte = 3000
 const bodyParser = require("body-parser");
 
 const mongoose = require('mongoose');
@@ -29,14 +32,18 @@ const Visibite = require('./models/Visibilite.models');
 
 //Gestion des sessions
 app.use(session({
-  secret: 'your-secret',
+  secret: process.env.secret_key,
   resave: false,
   saveUninitialized: true,
-  cookie: {
+  store: MongoStore.create({ 
+    mongoUrl: process.env.MONGO_URI
+  }),
+  cookie: {secure: false}
+  /*cookie: {
     secure: true,
     httpOnly: true,
     maxAge: 60000
-  }
+  }*/ 
 }))
 
 // Autoriser CORS
@@ -54,16 +61,11 @@ var usersRoutes = require('./routes/usersCtrl');
 
 
 app.get('/', (req,res) => res.send('Hello some SME CITY!'))
-// Démarrer le serveur après la connexion réussie à MongoDB
-app.listen(port, () => {
-  console.log(`Le serveur écoute sur le port http://localhost:${port}`);
-});
-app.listen(porte, () => {
+/*app.listen(porte, () => {
   console.log(`Le serveur écoute sur le port http://localhost:${porte}`);
-});
+});*/
 
 //Route par défaut
-app.use('./')
 
 // Routes vers nos différentes fonctions.
 // Routes pour les PMEs
@@ -94,7 +96,6 @@ db.once('open', function() {
 
 //Activites prend l'id de pillarActivity et Metiers prend l'id Activites.
 
-require('dotenv').config();
 
 // Connexion à MongoDB Atlas avec dotenv
 mongoose.connect(process.env.MONGO_URI, { 
@@ -106,4 +107,9 @@ const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
   console.log('Connected to MongoDB Atlas');
+});
+
+// Démarrer le serveur après la connexion réussie à MongoDB
+app.listen(port, () => {
+  console.log(`Le serveur écoute sur le port http://localhost:${port}`);
 });

@@ -13,3 +13,4 @@ node_modules/
 
 # Ignorer les fichiers de configuration spécifiques à l'environnement
 .DS_Store
+.vercel
