@@ -2,8 +2,7 @@ const express = require('express')
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
 require('dotenv').config();
-
-//const bcrypt = require('bcrypt')
+const bcrypt = require('bcrypt')
 
 const app = express()
 const cors = require('cors');
