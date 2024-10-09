@@ -3,12 +3,12 @@ const session = require('express-session');
 const MongoStore = require('connect-mongo');
 require('dotenv').config();
 
-const bcrypt = require('bcryptjs')
 //const bcrypt = require('bcrypt')
 
 const app = express()
 const cors = require('cors');
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 8080 
+//const port = process.env.PORT || 8080
 //const porte = 3000
 const bodyParser = require("body-parser");
 
@@ -32,7 +32,7 @@ const SousCategories = require('./models/SousCategories.models');
 const Visibite = require('./models/Visibilite.models');
 
 //Gestion des sessions
-app.use(session({
+/*app.use(session({
   secret: process.env.secret_key,
   resave: false,
   saveUninitialized: true,
@@ -44,8 +44,8 @@ app.use(session({
     secure: true,
     httpOnly: true,
     maxAge: 60000
-  }*/ 
-}))
+  }
+}))*/ 
 
 // Autoriser CORS
 app.use(cors());
@@ -56,9 +56,6 @@ app.use(bodyParser.json({ limit: '50mb'}));
 var pmesRoutes = require('./routes/pmesCtrl');
 var adminsRoutes = require('./routes/adminsCtrl');
 var usersRoutes = require('./routes/usersCtrl');
-//netstat -ano | findstr :8080
-//taskkill /PID <PID> /F
-//taskkill /PID 4568 /F
 
 
 app.get('/', (req,res) => res.send('Hello some SME CITY!'))
@@ -73,11 +70,11 @@ app.get('/', (req,res) => res.send('Hello some SME CITY!'))
 app.use('/api/pmes', pmesRoutes);
 // Routes pour les Admins app.use('/api/admins', adminsRoutes);
 // Routes pour les utilisateurs non enregistrés ou généraux app.use('/api/users', usersRoutes);
-app.get('/api/pmes/:id/:name', (req, res) => {
+/*app.get('/api/pmes/:id/:name', (req, res) => {
     const id = req.params.id
     const name = req.params.name
     res.send(`Hello, Small and Medium Sized Enterprise No${id} : ${name}`)
-})
+})*/
 
 
 //**************** Connexion à la base de données Mongodb ***************************//

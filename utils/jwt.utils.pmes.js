@@ -11,7 +11,7 @@ module.exports = {
     },
     JWT_SIGN_SECRET,
     {
-      expiresIn: '24h' // Le token expire en 24 heures
+      expiresIn: '24h' 
     });
   },
   
