@@ -53,9 +53,9 @@ app.use(bodyParser.urlencoded({ limit: '50mb', extended: true, Timeout: '50000ms
 app.use(bodyParser.json({ limit: '50mb'}));
 
 //Ctrl
-var pmesRoutes = require('./routes/pmesCtrl');
-var adminsRoutes = require('./routes/adminsCtrl');
-var usersRoutes = require('./routes/usersCtrl');
+let pmesRoutes = require('./routes/pmesCtrl');
+let adminsRoutes = require('./routes/adminsCtrl');
+let usersRoutes = require('./routes/usersCtrl');
 
 
 app.get('/', (req,res) => res.send('Hello some SME CITY!'))

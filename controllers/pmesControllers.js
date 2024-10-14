@@ -1,10 +1,10 @@
 // controllers/pmesController.js
 
-var bcrypt = require('bcrypt');
-var PME = require('../models/PMEmodels');
-var asyncLib = require('async');
-var jwtUtils = require('../utils/jwt.utils.pmes');
-var saltRounds = 10;
+let bcrypt = require('bcrypt');
+let PME = require('../models/PMEmodels');
+let asyncLib = require('async');
+let jwtUtils = require('../utils/jwt.utils.pmes');
+let saltRounds = 10;
 
 const bodyParser = require("body-parser");
 
@@ -107,16 +107,16 @@ module.exports = {
         }
 
         // Vérifiez si l'email existe déjà
-        var existingPme = await PME.findOne({ Email: commonFields.Email });
+        let existingPme = await PME.findOne({ Email: commonFields.Email });
         if (existingPme) {
             return res.status(400).send({ message: 'Une PME avec cet email existe déjà.' });
         }
 
         // Hash le mot de passe
-        var hashedPassword = await bcrypt.hash(commonFields.Password, saltRounds);
+        let hashedPassword = await bcrypt.hash(commonFields.Password, saltRounds);
 
         // Créez une nouvelle PME en fusionnant les champs communs et spécifiques
-        var newPme = new PME({
+        let newPme = new PME({
             ...commonFields,
             ...specificFields,
             Password: hashedPassword // Remplacez le mot de passe par le mot de passe haché
